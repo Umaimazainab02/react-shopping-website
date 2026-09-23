@@ -11,7 +11,7 @@ import Gaming from './pages/Gaming'
 import MobileAccessories from './pages/MobileAccessories'
 import Audio from './pages/Audio'
 import SmartHome from './pages/SmartHome'
-
+import Home from './pages/Home'
 const App = () => {
   return (
     <div>
@@ -20,7 +20,8 @@ const App = () => {
       <Navbar3 />
 
       <Routes>
-        <Route path="/" element={<DeskSetup />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/DeskSetup" element={<DeskSetup />} />
         <Route path="/Travel-Gadgets" element={<TravelGadgets />} />
         <Route path="/Gaming" element={<Gaming />} />
         <Route path="/Mobile-Accessories" element={<MobileAccessories />} />
