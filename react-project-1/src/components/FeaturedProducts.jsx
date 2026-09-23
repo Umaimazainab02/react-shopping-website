@@ -39,7 +39,7 @@ const FeaturedProducts = () => {
   ]
 
   return (
-    <div>
+    <div className=''>
 
       <div className="flex flex-col items-center justify-center text-center mt-14">
         <h1 className="text-4xl font-bold">
@@ -51,7 +51,7 @@ const FeaturedProducts = () => {
         </p>
       </div>
 
-      <div className="flex flex-nowrap gap-5 mx-7 mt-8 overflow-x-auto overflow-y-hidden scrollbar-hide mb-30">
+      <div className="flex flex-nowrap gap-5 mx-7  mt-8  mb-30">
 
         {FeaturedProducts.map((item, index) => (
           <Featuredproducts2
