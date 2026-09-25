@@ -27,17 +27,18 @@ const Brands = () => {
 
       {/* Left Content */}
       <div className="flex flex-col text-white justify-center gap-4 w-[40%]">
-        <h2 className="text-[#D0AD57] font-bold text-xl">
+        <h2 className="text-[#D0AD57] font-bold text-sm tracking-[3px] uppercase">
           Exclusive Brand
         </h2>
 
-        <h1 className="text-6xl font-bold">
+        <h1 className="text-5xl font-bold">
           TSY Fragrances
         </h1>
 
-        <p className="text-gray-300">
+        <p className="text-gray-300 text-lg">
           Discover signature scents crafted for everyday confidence.
         </p>
+        <button className='bg-[#D0AD57] text-black rounded-4xl font-bold w-[fit-content] py-3 px-6 mt-6 cursor-pointer'>Explore Collection</button>
       </div>
 
       {/* Right Cards */}
@@ -69,7 +70,7 @@ const Brands = () => {
             </div>
           </div>
 
-          ))}
+        ))}
       </div>
     </div>
   )
