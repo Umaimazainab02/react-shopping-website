@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-
+import products from '../data/Products'
 const Featuredproducts2 = ({
   id,
   image,

@@ -1,6 +1,6 @@
 import React from 'react'
 import Featuredproducts2 from './Featuredproducts2'
-
+import products from '../data/Products'
 const FeaturedProducts = () => {
 
   const FeaturedProducts = [

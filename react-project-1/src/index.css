@@ -7,3 +7,6 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+body{
+  background-color: rgb(253, 254, 255);
+}
