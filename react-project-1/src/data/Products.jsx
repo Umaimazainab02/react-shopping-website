@@ -109,44 +109,47 @@ const products = [
         ],
     },
 
-    {
-        id: 3,
-        image:
-            "https://soopermall.com/cdn/shop/files/690c41c07dc2b-768x768.jpg?v=1785950575&width=1200",
+   {
+  id: 3,
 
-        title: "LDNIO Z11 Wall Switch Socket 4 Outlet Extender",
+  image:
+    "https://soopermall.com/cdn/shop/files/690c41c07dc2b-768x768.jpg?v=1785950575&width=1200",
 
-        oldPrice: "Rs.1,899.00",
-        price: "Rs.1,599.00",
+  title: "LDNIO Z11 Wall Switch Socket 4 Outlet Extender",
 
-        description:
-            "Convenient 4 outlet wall socket extender designed to provide multiple charging and power options.",
+  oldPrice: "Rs.1,899.00",
+  price: "Rs.1,599.00",
 
-        rating: "⭐⭐⭐⭐⭐",
-        stock: "In Stock • Ready to Ship",
+  description: [
+    "Convenient 4 outlet wall socket extender designed to provide multiple charging and power options."
+  ],
 
-        highlights: [
-            "4 Power Outlets",
-            "Multiple Device Support",
-            "Compact Design",
-            "Easy Installation",
-            "Suitable for Home & Office",
-        ],
+  rating: "⭐⭐⭐⭐⭐",
+  stock: "In Stock • Ready to Ship",
 
-        specifications: [
-            "Brand: LDNIO",
-            "Model: Z11",
-            "Outlets: 4",
-            "Type: Wall Socket Extender",
-        ],
+  highlights: [
+    "4 Power Outlets",
+    "Multiple Device Support",
+    "Compact Design",
+    "Easy Installation",
+    "Suitable for Home & Office",
+  ],
 
-        gallery: [
-            "https://soopermall.com/cdn/shop/files/690c41c07dc2b-768x768.jpg?v=1785950575&width=1200",
-            "https://soopermall.com/cdn/shop/files/690c41c07e508-768x768.jpg?v=1785950575&width=1200",
-            "https://soopermall.com/cdn/shop/files/690c41c07e99d-scaled.jpg?v=1785950575&width=1200"
-        ],
-    },
+  specifications: [
+    "Brand: LDNIO",
+    "Model: Z11",
+    "Outlets: 4",
+    "Type: Wall Socket Extender",
+  ],
 
+  gallery: [
+    "https://soopermall.com/cdn/shop/files/690c41c07dc2b-768x768.jpg?v=1785950575&width=1200",
+
+    "https://soopermall.com/cdn/shop/files/690c41c07e508-768x768.jpg?v=1785950575&width=1200",
+
+    "https://soopermall.com/cdn/shop/files/690c41c07e99d-scaled.jpg?v=1785950575&width=1200"
+  ],
+},
     {
         id: 4,
         image:
