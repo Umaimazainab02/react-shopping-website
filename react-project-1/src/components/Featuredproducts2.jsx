@@ -45,12 +45,12 @@ const Featuredproducts2 = ({
             </span>
           </div>
 
-          <p className="text-gray-600 text-sm mt-2">
-            {description}
-          </p>
-<button className='text-lg font-medium text-white bg-black w-full rounded-full p-2'>
-  Add to cart
-</button>
+         
+          <button className="text-lg font-medium text-white bg-black w-full rounded-full p-2 transition-transform duration-200 hover:-translate-y-[1px] hover:scale-[1.02] hover:bg-gray-900">
+            <span className="inline-block transition-transform duration-200 hover:scale-[1.03]">
+              Add to cart
+            </span>
+          </button>
         </div>
 
       </div>

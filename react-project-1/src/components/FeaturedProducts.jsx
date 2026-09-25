@@ -61,6 +61,7 @@ const FeaturedProducts = () => {
             title={item.title}
             oldPrice={item.oldPrice}
             price={item.price}
+            description={item.description}
           />
         ))}
 
