@@ -87,25 +87,26 @@ const Footer = () => {
               Customer Care
             </h3>
 
-            <div className="space-y-3 text-gray-400">
+            <div className="space-y-3 text-white">
               <p>
-                Contact Us
+                <span className="font-bold text-gray-300">
+                  Contact Us</span>
               </p>
 
               <p>
-                WhatsApp: +92 333 3399743
+                <span className="font-bold text-gray-300">WhatsApp:</span> +92 333 3399743
               </p>
 
               <p>
-                Email: support@soopermall.com
+                <span className="font-bold text-gray-300">Email:</span> support@soopermall.com
               </p>
 
               <p>
-                Location: Pakistan
+               <span className="font-bold text-gray-300"> Location:</span> Pakistan
               </p>
 
               <p>
-                Support hours:
+                <span className="font-bold text-gray-300">Support hours:</span>
                 <br />
                 Monday–Saturday, 10 AM–7 PM
               </p>
