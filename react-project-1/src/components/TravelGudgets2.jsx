@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const Desktopproduct2 = ({
+const TravelGudgets2 = ({
     id,
     image,
     title,
@@ -66,4 +66,4 @@ const Desktopproduct2 = ({
     )
 }
 
-export default Desktopproduct2
+export default TravelGudgets2
