@@ -1,21 +1,24 @@
 import { useParams } from 'react-router-dom'
 import products from '../data/Products'
 import Deskproduct from '../data/Deskproduct'
-
+import Travel from '../data/Travel'
 import React, { useState } from 'react'
 const ProductDetails = () => {
-const [quantity, setQuantity] = useState(1)
+    const [quantity, setQuantity] = useState(1)
     const { category, id } = useParams()
 
-let data = products
+    let data = products
 
-if (category === 'desktop') {
-    data = Deskproduct
-}
+    if (category === 'desktop') {
+        data = Deskproduct
+    }
+    if (category === 'TravelGudgets') {
+        data = Travel
+    }
 
-const product = data.find(
-    (item) => item.id === Number(id)
-)
+    const product = data.find(
+        (item) => item.id === Number(id)
+    )
     if (!product) {
         return (
             <div className="p-10 text-center">
