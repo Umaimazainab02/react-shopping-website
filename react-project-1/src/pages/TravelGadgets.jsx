@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import TravelGudgets2 from '../components/TravelGudgets2'
+import ProductCard from '../components/ProductCard'
 import Travel from '../data/Travel'
 
 const TravelGudgets = () => {
@@ -81,14 +81,12 @@ const TravelGudgets = () => {
       <div className="flex flex-wrap gap-5 mx-7 mb-30">
 
         {sortedProducts.map((item) => (
-          <TravelGudgets2
+          <ProductCard
             key={item.id}
-            id={item.id}
-            image={item.image}
-            title={item.title}
-            oldPrice={item.oldPrice}
-            price={item.price}
-            description={item.description}
+            product={{
+              ...item,
+              category: "Travel-Gadgets"
+            }}
           />
         ))}
 

@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom'
 import products from '../data/Products'
 import Deskproduct from '../data/Deskproduct'
 import Travel from '../data/Travel'
+import Game from '../data/Game'
 import React, { useState } from 'react'
 const ProductDetails = () => {
     const [quantity, setQuantity] = useState(1)
@@ -9,11 +10,16 @@ const ProductDetails = () => {
 
     let data = products
 
-    if (category === 'desktop') {
+    if (category === 'DeskSetup') {
         data = Deskproduct
     }
-    if (category === 'TravelGudgets') {
+
+    if (category === 'Travel-Gadgets') {
         data = Travel
+    }
+
+    if (category === 'Gaming') {
+        data = Game
     }
 
     const product = data.find(

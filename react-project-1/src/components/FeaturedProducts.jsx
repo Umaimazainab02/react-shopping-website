@@ -1,11 +1,12 @@
 import React from 'react'
-import Featuredproducts2 from './Featuredproducts2'
-import products from '../data/Products'
+import ProductCard from './ProductCard'
+
 const FeaturedProducts = () => {
 
   const FeaturedProducts = [
     {
       id: 1,
+      category: "Featured",
       image: "https://soopermall.com/cdn/shop/files/file_00000000612c71f5b7dac5a640a002fa_e8a46702-b328-42ea-944b-eba8f933f2f1.png?v=1783261242&width=900p",
       title: "SooperHub 8-in-1 USB TYPE C HUB with 4K HDMI, PD Charging & Ethernet",
       oldPrice: "Rs.3,500.00",
@@ -14,6 +15,7 @@ const FeaturedProducts = () => {
     },
     {
       id: 2,
+      category: "Featured",
       image: "https://soopermall.com/cdn/shop/files/A-701-7.jpg?v=1783016870&width=900",
       title: "360 Rotating Aluminum Phone & Tablet Stand",
       oldPrice: "Rs.1,999.00",
@@ -22,6 +24,7 @@ const FeaturedProducts = () => {
     },
     {
       id: 3,
+      category: "Featured",
       image: "https://soopermall.com/cdn/shop/files/690c41c07dc2b-768x768.jpg?v=1785950575&width=900",
       title: "LDNIO Z11 Wall Switch Socket 4 Outlet Extender",
       oldPrice: "Rs.1,899.00",
@@ -30,6 +33,7 @@ const FeaturedProducts = () => {
     },
     {
       id: 4,
+      category: "Featured",
       image: "https://soopermall.com/cdn/shop/files/A362.avif?v=1782744892&width=900",
       title: "Aspor A362 20000mAh 65W Power Bank",
       oldPrice: "Rs.11,500.00",
@@ -39,7 +43,7 @@ const FeaturedProducts = () => {
   ]
 
   return (
-    <div className=''>
+    <div>
 
       <div className="flex flex-col items-center justify-center text-center mt-14">
         <h1 className="text-4xl font-bold">
@@ -51,17 +55,12 @@ const FeaturedProducts = () => {
         </p>
       </div>
 
-      <div className="flex flex-nowrap gap-5 mx-7  mt-8  mb-30">
+      <div className="flex flex-nowrap gap-5 mx-7 mt-8 mb-30">
 
-        {FeaturedProducts.map((item, index) => (
-          <Featuredproducts2
+        {FeaturedProducts.map((item) => (
+          <ProductCard
             key={item.id}
-            id={item.id}
-            image={item.image}
-            title={item.title}
-            oldPrice={item.oldPrice}
-            price={item.price}
-            description={item.description}
+            product={item}
           />
         ))}
 

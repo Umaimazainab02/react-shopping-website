@@ -1,20 +1,15 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const Desktopproduct2 = ({
-    id,
-    image,
-    title,
-    oldPrice,
-    price,
-    description
-}) => {
+const ProductCard = ({ product }) => {
 
     const navigate = useNavigate()
 
     return (
         <div
-            onClick={() => navigate(`/product/TravelGudgets/${id}`)}
+            onClick={() =>
+                navigate(`/product/${product.category}/${product.id}`)
+            }
             className="w-[300px] rounded-xl cursor-pointer overflow-hidden"
         >
 
@@ -24,8 +19,8 @@ const Desktopproduct2 = ({
                 <div className="w-full h-82 rounded-t-xl bg-gray-100 px-2 flex items-center justify-center overflow-hidden">
 
                     <img
-                        src={image}
-                        alt={title}
+                        src={product.image}
+                        alt={product.title}
                         className="w-[100%] h-[500px] object-contain transition-transform duration-500 hover:scale-104"
                     />
 
@@ -35,17 +30,17 @@ const Desktopproduct2 = ({
                 <div className="mt-4 p-4">
 
                     <h2 className="text-[15px] font-bold h-12 line-clamp-2">
-                        {title}
+                        {product.title}
                     </h2>
 
                     <div className="flex gap-2 mt-2">
 
                         <span className="line-through text-gray-400">
-                            {oldPrice}
+                            {product.oldPrice}
                         </span>
 
                         <span className="font-bold">
-                            {price}
+                            {product.price}
                         </span>
 
                     </div>
@@ -62,8 +57,9 @@ const Desktopproduct2 = ({
                 </div>
 
             </div>
+
         </div>
     )
 }
 
-export default Desktopproduct2
+export default ProductCard
