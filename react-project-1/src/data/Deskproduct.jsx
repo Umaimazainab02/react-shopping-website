@@ -302,7 +302,7 @@ const Deskproduct = [
     ],
   },
   {
-    id: 4,
+    id: 7,
     image:
       "https://soopermall.com/cdn/shop/files/301755331698.jpg?v=1785768290&width=800",
 
@@ -347,7 +347,7 @@ const Deskproduct = [
       ""
     ],
   }, {
-    id: 7,
+    id: 8,
     image: "https://soopermall.com/cdn/shop/files/2d034cef0131773897925.jpg?v=1786702314&width=1200",
     title:
       "Xtrike Me Hd-215 Bluetooth 5.3v Wireless Headset Comfortable & Ergonomic Design",
@@ -395,7 +395,7 @@ const Deskproduct = [
 
     gallery: [""]
   }, {
-    id: 6,
+    id: 9,
     image: "https://soopermall.com/cdn/shop/files/3e746962af31773897750.jpg?v=1786702160&width=1200",
     title:
       "Xtrike Me Hd-214 Bk Wireless Bluetooth 5.3 Foldable Over-ear Headphone",
@@ -447,7 +447,7 @@ const Deskproduct = [
 
     gallery: ["https://soopermall.com/cdn/shop/files/2e746962af31773897750.jpg?v=1786702160&width=1200"]
   }, {
-    id: 8,
+    id: 10,
     image:
       "https://soopermall.com/cdn/shop/files/headphones_2.avif?v=1786701640&width=1200",
 
@@ -504,7 +504,7 @@ const Deskproduct = [
       "https://soopermall.com/cdn/shop/files/headphones_2.avif?v=1786701640&width=1200"
     ]
   }, {
-    id: 9,
+    id: 11,
     image: "https://soopermall.com/cdn/shop/files/2102160931181808.webp?v=1759005897&width=1200",
     title: "A4tech HU-8 – Stereo USB Headset",
     oldPrice: "",
@@ -549,7 +549,7 @@ const Deskproduct = [
 
     gallery: [""]
   }, {
-    id: 10,
+    id: 12,
     image:
       "https://soopermall.com/cdn/shop/files/2011131796783855.webp?v=1759005898&width=1200",
 
@@ -599,7 +599,7 @@ const Deskproduct = [
       "https://soopermall.com/cdn/shop/files/0602093862978534.webp?v=1759005899&width=1200"
     ]
   }, {
-    id: 11,
+    id: 13,
     image: "https://soopermall.com/cdn/shop/files/6a9d7b98abee388c84a3674733643bea.webp?v=1759005900&width=1200",
     title: "A4tech Hu-35 USB headphone",
     oldPrice: "",
@@ -649,7 +649,7 @@ const Deskproduct = [
 
     gallery: [""]
   }, {
-    id: 12,
+    id: 14,
     image:
       "https://soopermall.com/cdn/shop/files/2402033063125114.webp?v=1759005905&width=1200",
 
@@ -704,7 +704,7 @@ const Deskproduct = [
       "https://soopermall.com/cdn/shop/files/188208f5324a9e1133260d0c91c6692f.webp?v=1759005902&width=1200"
     ]
   }, {
-    id: 13,
+    id: 15,
     image:
       "https://soopermall.com/cdn/shop/files/2505272811916931.png?v=1786701182&width=1200",
 
@@ -754,7 +754,7 @@ const Deskproduct = [
       "https://soopermall.com/cdn/shop/files/2505180603105720.png?v=1786701181&width=1200"
     ]
   }, {
-    id: 14,
+    id: 16,
     image: "https://soopermall.com/cdn/shop/files/2902535822068935.jpg?v=1786701059&width=1200",
 
     title: "A4TECH FH150U USB FSTYLER STEREO HEADSET",
@@ -798,7 +798,7 @@ const Deskproduct = [
 
     gallery: ["https://soopermall.com/cdn/shop/files/2902540208753519.jpg?v=1786701059&width=1200"]
   }, {
-    id: 15,
+    id: 17,
     image: "https://soopermall.com/cdn/shop/files/0910284729101425.webp?v=1759005903&width=1200",
 
     title: "A4tech FH-300u usb Headset.",
@@ -850,7 +850,7 @@ const Deskproduct = [
 
     gallery: [""]
   }, {
-    id: 16,
+    id: 18,
     image: "https://soopermall.com/cdn/shop/files/nQRtHfHyB3.webp?v=1786700498&width=1200",
 
     title: "WIWU TD-16 ANC Airbuds MAX Headset black",
@@ -905,7 +905,7 @@ const Deskproduct = [
 
     gallery: [""]
   }, {
-    id: 17,
+    id: 19,
     image:
       "https://soopermall.com/cdn/shop/files/KXmGQSBdn4.webp?v=1786700369&width=1200",
 
@@ -962,7 +962,7 @@ const Deskproduct = [
       "https://soopermall.com/cdn/shop/files/KXmGQSBdn4.webp?v=1786700369&width=1200"
     ]
   }, {
-    id: 18,
+    id: 20,
     image: "https://soopermall.com/cdn/shop/files/0d03c57c-adcd-4f09-b722-ef56d0ef3acb_1.jpg?v=1786700162&width=1200",
     title: "TUCCI Q6 Wired USB Headset – Ideal for Call Centers, Music & Movies",
     oldPrice: "",
@@ -1054,7 +1054,7 @@ const Deskproduct = [
 
     gallery: [""]
   }, {
-    id: 20,
+    id: 21,
     image: "https://soopermall.com/cdn/shop/files/11.webp?v=1786700281&width=1200",
     title: "WiWU TD-11 Joysound Wireless Bluetooth Headset",
     oldPrice: "",
