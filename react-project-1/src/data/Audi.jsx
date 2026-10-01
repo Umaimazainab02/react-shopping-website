@@ -801,7 +801,148 @@ const Audi = [
   gallery: [
     "https://soopermall.com/cdn/shop/files/154a88779805bd3866a660cb8c352658_1.png?v=1786700038&width=1200"
   ]
-}
+},
+{
+  id: 18,
+  image: "https://soopermall.com/cdn/shop/files/Image_20260622181302_87_3.png?v=1786699897&width=1200",
+  title: "Single Ear USB Conference & Call Center Headset",
+  oldPrice: "",
+  price: "Rs.1800",
+  description: [
+    "The Single Ear USB Conference & Call Center Headset is a professional communication headset designed for clear voice quality, comfort, and situational awareness.",
+    "Its single-ear monaural design keeps one ear completely free, allowing users to stay aware of colleagues, conversations, and their surroundings while taking calls.",
+    "The high-sensitivity noise-canceling microphone helps isolate the user's voice from ambient room noise for clearer communication.",
+    "The headset is suitable for busy office environments, call centers, remote work setups, and lengthy virtual conferences.",
+    "USB connectivity provides convenient use with compatible computers and laptops.",
+    "The comfortable design makes it suitable for extended calls, meetings, and professional communication."
+  ],
+  rating: "⭐⭐⭐⭐⭐",
+  stock: "In Stock • Ready to Ship",
+  highlights: [
+    "Single-Ear Monaural Design",
+    "One Ear Remains Free",
+    "Noise-Canceling Microphone",
+    "High-Sensitivity Microphone",
+    "Clear Voice Communication",
+    "USB Connectivity",
+    "Comfortable for Long Calls",
+    "Ideal for Call Centers",
+    "Suitable for Office Use",
+    "Suitable for Remote Work",
+    "Suitable for Virtual Conferences"
+  ],
+  specifications: {
+    "Model": "Single Ear USB Conference & Call Center Headset",
+    "Design": "Single-Ear / Monaural",
+    "Connectivity": "USB",
+    "Microphone": "Noise-Canceling",
+    "Microphone Type": "High-Sensitivity",
+    "Usage": "Call Centers, Office, Remote Work & Virtual Conferences",
+    "Design Benefit": "Keeps One Ear Free for Environmental Awareness"
+  },
+  gallery: [
+    "https://soopermall.com/cdn/shop/files/Image_20260622181302_87_3.png?v=1786699897&width=1200"
+  ]
+},
+
+{
+  id: 19,
+  image: "https://soopermall.com/cdn/shop/files/740x740_6812002575B-1.webp?v=1786699432&width=1200",
+  title: "REMAX RB-920HB ANC Noise Cancelling Wireless Headphones White",
+  oldPrice: "",
+  price: "Rs.6500",
+  description: [
+    "REMAX RB-920HB White Wireless Headphones feature ANC noise cancelling technology for clear and immersive sound.",
+    "The Active Noise Cancelling (ANC) technology helps reduce ambient sounds, allowing you to focus on music, podcasts, or calls.",
+    "High-quality audio drivers deliver clear and balanced sound with deep bass and crisp highs.",
+    "The comfortable over-ear design with soft cushioning provides comfort during extended listening sessions.",
+    "Wireless connectivity provides freedom of movement without the need for a wired connection.",
+    "Long battery life keeps the headphones powered for hours of uninterrupted listening.",
+    "The sleek white design combines style, performance, and convenience for everyday use.",
+    "The headphones are suitable for travel, work, music, calls, and leisure."
+  ],
+  rating: "⭐⭐⭐⭐⭐",
+  stock: "In Stock • Ready to Ship",
+  highlights: [
+    "Active Noise Cancelling (ANC)",
+    "Wireless Connectivity",
+    "Clear & Balanced Sound",
+    "Deep Bass & Crisp Highs",
+    "High-Quality Audio Drivers",
+    "Comfortable Over-Ear Design",
+    "Soft Ear Cushioning",
+    "Long Battery Life",
+    "Sleek White Design",
+    "Ideal for Travel & Work",
+    "Suitable for Music & Calls"
+  ],
+  specifications: {
+    "Model": "REMAX RB-920HB",
+    "Color": "White",
+    "Connectivity": "Wireless",
+    "Noise Cancellation": "Active Noise Cancelling (ANC)",
+    "Design": "Over-Ear",
+    "Audio": "Clear & Balanced Sound",
+    "Bass": "Deep Bass",
+    "Cushioning": "Soft Ear Cushioning",
+    "Battery": "Long Battery Life",
+    "Suitable For": "Travel, Work, Music, Calls & Leisure"
+  },
+  gallery: [
+    "https://soopermall.com/cdn/shop/files/740x740_6812002575B-1.webp?v=1786699432&width=1200"
+  ]
+},
+{
+  id: 20,
+  image: "https://soopermall.com/cdn/shop/files/740x740_6812002575A-1.webp?v=1786388026&width=1200",
+  title: "REMAX RB-920HB ANC Noise Cancelling Wireless Headphones Black",
+  oldPrice: "",
+  price: "Rs.6500",
+  description: [
+    "The REMAX RB-920HB ANC Noise Cancelling Wireless Headphones in black combine active noise cancellation technology with high-fidelity sound for an immersive audio experience.",
+    "The Active Noise Cancelling technology helps reduce surrounding noise, allowing you to enjoy music and other audio with fewer distractions.",
+    "The headphones feature a comfortable over-ear design with soft cushioned ear cups for extended listening sessions.",
+    "The adjustable headband provides a flexible and comfortable fit.",
+    "Wireless connectivity allows hassle-free music streaming and hands-free calls.",
+    "The long-lasting battery provides hours of uninterrupted playback.",
+    "Intuitive controls make it easy to manage music, calls, and ANC settings.",
+    "The sleek black design makes the headphones suitable for travel, work, and daily use."
+  ],
+  rating: "⭐⭐⭐⭐⭐",
+  stock: "In Stock • Ready to Ship",
+  highlights: [
+    "Active Noise Cancellation (ANC)",
+    "High-Fidelity Sound",
+    "Wireless Connectivity",
+    "Hands-Free Calls",
+    "Comfortable Over-Ear Design",
+    "Soft Cushioned Ear Cups",
+    "Adjustable Headband",
+    "Long-Lasting Battery",
+    "Intuitive Music & Call Controls",
+    "ANC Controls",
+    "Sleek Black Design",
+    "Suitable for Travel & Work"
+  ],
+  specifications: {
+    "Model": "REMAX RB-920HB",
+    "Color": "Black",
+    "Connectivity": "Wireless",
+    "Noise Cancellation": "Active Noise Cancellation (ANC)",
+    "Audio": "High-Fidelity Sound",
+    "Design": "Over-Ear",
+    "Ear Cups": "Soft Cushioned",
+    "Headband": "Adjustable",
+    "Controls": "Music, Calls & ANC",
+    "Battery": "Long-Lasting",
+    "Suitable For": "Travel, Work & Daily Use"
+  },
+  gallery: [
+    "https://soopermall.com/cdn/shop/files/740x740_6812002575A-1.webp?v=1786388026&width=1200"
+  ]
+},
+
+
 
 
 
