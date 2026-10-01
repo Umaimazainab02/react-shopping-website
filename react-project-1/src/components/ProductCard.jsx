@@ -47,7 +47,7 @@ const ProductCard = ({ product }) => {
 
                     <button
                         onClick={(e) => e.stopPropagation()}
-                        className="text-lg font-medium text-white bg-black w-full rounded-full p-2 transition-transform duration-200 hover:-translate-y-[1px] hover:scale-[1.02] hover:bg-gray-900"
+                        className="text-lg font-medium text-white bg-black w-full rounded-full p-2 transition-transform duration-200 hover:-translate-y-[1px] hover:scale-[1.02] hover:bg-blue-400"
                     >
                         <span className="inline-block transition-transform duration-200 hover:scale-[1.03]">
                             Add to cart

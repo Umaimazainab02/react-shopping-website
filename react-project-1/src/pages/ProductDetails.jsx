@@ -3,6 +3,7 @@ import products from '../data/Products'
 import Deskproduct from '../data/Deskproduct'
 import Travel from '../data/Travel'
 import Game from '../data/Game'
+import Mobile from '../data/Mobile'
 import React, { useState } from 'react'
 const ProductDetails = () => {
     const [quantity, setQuantity] = useState(1)
@@ -10,7 +11,7 @@ const ProductDetails = () => {
 
     let data = products
 
-    if (category === 'DeskSetup') {
+    if (category === 'Desk-Setup') {
         data = Deskproduct
     }
 
@@ -21,7 +22,9 @@ const ProductDetails = () => {
     if (category === 'Gaming') {
         data = Game
     }
-
+    if (category === 'Mobile-Accessories') {
+        data = Mobile
+    }
     const product = data.find(
         (item) => item.id === Number(id)
     )
@@ -166,15 +169,22 @@ const ProductDetails = () => {
                 </h2>
 
                 <div className="space-y-4 mt-6">
-                    {product.description.map((text, index) => (
-                        <p
-                            key={index}
-                            className="text-gray-600 leading-7"
-                        >
-                            {text}
+                    {Array.isArray(product.description) ? (
+                        product.description.map((text, index) => (
+                            <p
+                                key={index}
+                                className="text-gray-600 leading-7"
+                            >
+                                {text}
+                            </p>
+                        ))
+                    ) : (
+                        <p className="text-gray-600 leading-7">
+                            {product.description}
                         </p>
-                    ))}
+                    )}
                 </div>
+
 
             </div>
 
@@ -205,9 +215,10 @@ const ProductDetails = () => {
             </div>
 
             {/* Specifications */}
+
             <div className="mt-12">
 
-                <div className="border border-gray-200 rounded-2xl px-8 py-5 bg-[#FFFF] m-18">
+                <div className="border border-gray-200 rounded-2xl px-8 py-5 bg-white m-18">
 
                     <h2 className="text-2xl font-bold mb-5">
                         Specifications
@@ -215,20 +226,41 @@ const ProductDetails = () => {
 
                     <div className="flex flex-col gap-7">
 
-                        {product.specifications.map((item, index) => (
-                            <p
-                                key={index}
-                                className="text-gray-600"
-                            >
-                                • {item}
-                            </p>
-                        ))}
+                        {Array.isArray(product.specifications) ? (
+
+                            product.specifications.map((item, index) => (
+                                <p
+                                    key={index}
+                                    className="text-gray-600"
+                                >
+                                    • {item}
+                                </p>
+                            ))
+
+                        ) : (
+
+                            Object.entries(product.specifications || {}).map(
+                                ([key, value]) => (
+                                    <p
+                                        key={key}
+                                        className="text-gray-600"
+                                    >
+                                        • <span className="font-medium">
+                                            {key}:
+                                        </span>{' '}
+                                        {value}
+                                    </p>
+                                )
+                            )
+
+                        )}
 
                     </div>
 
                 </div>
 
             </div>
+
 
         </div>
     )

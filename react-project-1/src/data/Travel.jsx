@@ -668,68 +668,68 @@ const Travel = [
     gallery: [
       "PUT_REMAX_RPP_622_IMAGE_URL_HERE"
     ]
-  },{
-  id: 17,
+  }, {
+    id: 17,
 
-  image:
-    "https://soopermall.com/cdn/shop/files/3cc7bd0048d1776078819.jpg?v=1786709705&width=1200",
+    image:
+      "https://soopermall.com/cdn/shop/files/3cc7bd0048d1776078819.jpg?v=1786709705&width=1200",
 
-  title: "Romoss Sense 8p+ Plus 30000mah 18w Pd + Qc Fast Charging Power Bank",
+    title: "Romoss Sense 8p+ Plus 30000mah 18w Pd + Qc Fast Charging Power Bank",
 
-  oldPrice: "",
-  price: "Rs.5,999.00",
+    oldPrice: "",
+    price: "Rs.5,999.00",
 
-  rating: "⭐⭐⭐⭐⭐",
-  stock: "In Stock • Ready to Ship",
+    rating: "⭐⭐⭐⭐⭐",
+    stock: "In Stock • Ready to Ship",
 
-  description: [
-    "The ROMOSS Sense 8P+ 30000mAh Power Bank provides high-capacity backup power with 18W PD fast charging.",
-    "It is designed for heavy users, travelers, gamers, and everyday use with support for multiple devices.",
-    "The power bank features Micro-USB, Lightning, and Type-C inputs for convenient recharging.",
-    "A smart LED digital display shows the remaining battery percentage.",
-    "Built-in intelligent safety protection helps protect against overheating, overcharging, over-current, over-discharge, and short circuits.",
-    "It supports smartphones, tablets, gaming devices, and other compatible devices."
-  ],
+    description: [
+      "The ROMOSS Sense 8P+ 30000mAh Power Bank provides high-capacity backup power with 18W PD fast charging.",
+      "It is designed for heavy users, travelers, gamers, and everyday use with support for multiple devices.",
+      "The power bank features Micro-USB, Lightning, and Type-C inputs for convenient recharging.",
+      "A smart LED digital display shows the remaining battery percentage.",
+      "Built-in intelligent safety protection helps protect against overheating, overcharging, over-current, over-discharge, and short circuits.",
+      "It supports smartphones, tablets, gaming devices, and other compatible devices."
+    ],
 
-  highlights: [
-    "30000mAh High Capacity",
-    "18W Two-Way Fast Charging",
-    "PD + QC Fast Charging",
-    "3 Input Ports",
-    "3 Output Ports",
-    "Charge Up to 3 Devices Simultaneously",
-    "LED Digital Battery Display",
-    "Micro-USB Input",
-    "Lightning Input",
-    "Type-C Input & Output",
-    "Advanced Safety Protection",
-    "Wide Device Compatibility"
-  ],
+    highlights: [
+      "30000mAh High Capacity",
+      "18W Two-Way Fast Charging",
+      "PD + QC Fast Charging",
+      "3 Input Ports",
+      "3 Output Ports",
+      "Charge Up to 3 Devices Simultaneously",
+      "LED Digital Battery Display",
+      "Micro-USB Input",
+      "Lightning Input",
+      "Type-C Input & Output",
+      "Advanced Safety Protection",
+      "Wide Device Compatibility"
+    ],
 
-  specifications: [
-    "Brand: ROMOSS",
-    "Model: Sense 8P+ (PHP30 Pro)",
-    "Battery Capacity: 30000mAh",
-    "Battery Type: Lithium Polymer",
-    "Voltage: 12V",
-    "Type-C Output: 5V/3A, 9V/2A, 12V/1.5A",
-    "USB Output: 5V/2.1A",
-    "Inputs: Micro-USB / Lightning / Type-C",
-    "Outputs: Type-C + 2 USB Ports",
-    "Display: LED Digital",
-    "Fast Charging: 18W PD + QC",
-    "Safety Protection: Overheating / Overcharging / Over-Current / Over-Discharge / Short Circuit",
-    "Package Includes: ROMOSS Sense 8P+ Power Bank + User Manual",
-    "Charging Cable: Not Included"
-  ],
+    specifications: [
+      "Brand: ROMOSS",
+      "Model: Sense 8P+ (PHP30 Pro)",
+      "Battery Capacity: 30000mAh",
+      "Battery Type: Lithium Polymer",
+      "Voltage: 12V",
+      "Type-C Output: 5V/3A, 9V/2A, 12V/1.5A",
+      "USB Output: 5V/2.1A",
+      "Inputs: Micro-USB / Lightning / Type-C",
+      "Outputs: Type-C + 2 USB Ports",
+      "Display: LED Digital",
+      "Fast Charging: 18W PD + QC",
+      "Safety Protection: Overheating / Overcharging / Over-Current / Over-Discharge / Short Circuit",
+      "Package Includes: ROMOSS Sense 8P+ Power Bank + User Manual",
+      "Charging Cable: Not Included"
+    ],
 
-  gallery: [
-    "https://soopermall.com/cdn/shop/files/3cc7bd0048d1776078819.jpg?v=1786709705&width=1200",
-    "https://soopermall.com/cdn/shop/files/2cc7bd0048d1776078819.jpg?v=1786709705&width=1200",
-    "https://soopermall.com/cdn/shop/files/1cc7bd0048d1776078819.jpg?v=1786709705&width=1200",
-    "https://soopermall.com/cdn/shop/files/cc7bd0048d1776510783.jpg?v=1786709705&width=1200"
-  ]
-}
+    gallery: [
+      "https://soopermall.com/cdn/shop/files/3cc7bd0048d1776078819.jpg?v=1786709705&width=1200",
+      "https://soopermall.com/cdn/shop/files/2cc7bd0048d1776078819.jpg?v=1786709705&width=1200",
+      "https://soopermall.com/cdn/shop/files/1cc7bd0048d1776078819.jpg?v=1786709705&width=1200",
+      "https://soopermall.com/cdn/shop/files/cc7bd0048d1776510783.jpg?v=1786709705&width=1200"
+    ]
+  }
 ]
 
 export default Travel
