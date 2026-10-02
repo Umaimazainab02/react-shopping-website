@@ -13,32 +13,132 @@ import MobileAccessories from './pages/MobileAccessories'
 import Audio from './pages/Audio'
 import SmartHome from './pages/SmartHome'
 import Home from './pages/Home'
+import Login from './pages/Login'
 
 const App = () => {
   return (
     <div>
-      <Navbar1 />
-      <Navbar2 />
-      <Navbar3 />
-
       <Routes>
-        <Route path="/" element={<Home />} />
 
-        <Route path="/DeskSetup" element={<DeskSetup />} />
-        <Route path="/Travel-Gadgets" element={<TravelGadgets />} />
-        <Route path="/Gaming" element={<Gaming />} />
-        <Route path="/Mobile-Accessories" element={<MobileAccessories />} />
-        <Route path="/Audio" element={<Audio />} />
-        <Route path="/SmartHome" element={<SmartHome />} />
+        {/* Login - NO NAVBAR */}
+        <Route path="/login" element={<Login />} />
 
-        {/* Normal/Home products */}
-        <Route path="/product/:id" element={<ProductDetails />} />
+        {/* Home - Navbar + Page */}
+        <Route
+          path="/"
+          element={
+            <>
+              <Navbar1 />
+              <Navbar2 />
+              <Navbar3 />
+              <Home />
+            </>
+          }
+        />
 
-        {/* All category products */}
+        {/* Desk Setup */}
+        <Route
+          path="/DeskSetup"
+          element={
+            <>
+              <Navbar1 />
+              <Navbar2 />
+              <Navbar3 />
+              <DeskSetup />
+            </>
+          }
+        />
+
+        {/* Travel Gadgets */}
+        <Route
+          path="/Travel-Gadgets"
+          element={
+            <>
+              <Navbar1 />
+              <Navbar2 />
+              <Navbar3 />
+              <TravelGadgets />
+            </>
+          }
+        />
+
+        {/* Gaming */}
+        <Route
+          path="/Gaming"
+          element={
+            <>
+              <Navbar1 />
+              <Navbar2 />
+              <Navbar3 />
+              <Gaming />
+            </>
+          }
+        />
+
+        {/* Mobile Accessories */}
+        <Route
+          path="/Mobile-Accessories"
+          element={
+            <>
+              <Navbar1 />
+              <Navbar2 />
+              <Navbar3 />
+              <MobileAccessories />
+            </>
+          }
+        />
+
+        {/* Audio */}
+        <Route
+          path="/Audio"
+          element={
+            <>
+              <Navbar1 />
+              <Navbar2 />
+              <Navbar3 />
+              <Audio />
+            </>
+          }
+        />
+
+        {/* Smart Home */}
+        <Route
+          path="/SmartHome"
+          element={
+            <>
+              <Navbar1 />
+              <Navbar2 />
+              <Navbar3 />
+              <SmartHome />
+            </>
+          }
+        />
+
+        {/* Product Details */}
+        <Route
+          path="/product/:id"
+          element={
+            <>
+              <Navbar1 />
+              <Navbar2 />
+              <Navbar3 />
+              <ProductDetails />
+            </>
+          }
+        />
+
         <Route
           path="/product/:category/:id"
-          element={<ProductDetails />}
+          element={
+            <>
+              <Navbar1 />
+              <Navbar2 />
+              <Navbar3 />
+              <ProductDetails />
+            </>
+          }
         />
+
       </Routes>
     </div>
   )

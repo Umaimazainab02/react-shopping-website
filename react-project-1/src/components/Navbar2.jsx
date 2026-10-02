@@ -1,7 +1,9 @@
 import React from 'react'
 import { Heart, Search, UserRound, ShoppingCart } from 'lucide-react'
-
+import { useNavigate } from "react-router-dom";
 const Navbar2 = () => {
+    const navigate = useNavigate();
+
     return (
         <div className='flex justify-between m-5 items-center'>
 
@@ -30,18 +32,18 @@ const Navbar2 = () => {
             </div>
 
             <div className="flex gap-6 items-center">
-  <div className="hover:bg-gray-100 p-2 rounded-full">
-    <Heart size={19} strokeWidth={1.5} />
-  </div>
+                <div className="hover:bg-gray-100 p-2 rounded-full">
+                    <Heart size={19} strokeWidth={1.5} />
+                </div>
 
-  <div className="hover:bg-gray-100 p-2 rounded-full">
-    <UserRound size={19} strokeWidth={1.5} />
-  </div>
+                <div onClick={() => navigate('/login')} className="hover:bg-gray-100 p-2 rounded-full cursor-pointer">
+                    <UserRound size={19} strokeWidth={1.5} />
+                </div>
 
-  <div className="hover:bg-gray-100 p-2 rounded-full">
-    <ShoppingCart size={19} strokeWidth={2.5} />
-  </div>
-</div>
+                <div className="hover:bg-gray-100 p-2 rounded-full">
+                    <ShoppingCart size={19} strokeWidth={2.5} />
+                </div>
+            </div>
         </div>
     )
 }
