@@ -5,6 +5,7 @@ import Travel from '../data/Travel'
 import Game from '../data/Game'
 import Mobile from '../data/Mobile'
 import Audi from '../data/Audi'
+import Smart from '../data/Smart'
 import React, { useState } from 'react'
 const ProductDetails = () => {
     const [quantity, setQuantity] = useState(1)
@@ -28,6 +29,9 @@ const ProductDetails = () => {
     }
     if (category === 'Audio') {
         data = Audi
+    }
+    if (category === 'Smart-Products') {
+        data = Smart
     }
     const product = data.find(
         (item) => item.id === Number(id)
