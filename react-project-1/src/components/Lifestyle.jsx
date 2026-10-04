@@ -7,42 +7,42 @@ const Lifestyle = () => {
     {
       image: "https://soopermall.com/cdn/shop/files/images_2.jpg?v=1782652765&width=700",
       title: "Desk Setup",
-      work:"Shop Collection",
-    path: "/desktop"
+      work: "Shop Collection",
+      path: "/DeskSetup"
 
     },
     {
       image: "https://soopermall.com/cdn/shop/files/images_3.jpg?v=1782652766&width=700",
       title: "Work Essentials",
-      work:"Shop Collection",
-      path:"/Travel-Gadgets"
+      work: "Shop Collection",
+      path: "/Travel-Gadgets"
     },
     {
       image: "https://soopermall.com/cdn/shop/files/images_7.jpg?v=1782652765&width=700",
       title: "Gaming",
-      work:"Explore now",
-      path:"/Gaming"
+      work: "Explore now",
+      path: "/Gaming"
     },
     {
       image: "https://soopermall.com/cdn/shop/files/bfe9af2bde9b1b11bc503c03ae657c34.jpg?v=1783871213&width=700",
       title: "Mobile Accessories",
-      work:"Explore now",
-      path:"/Mobile-Accessories"
+      work: "Explore now",
+      path: "/Mobile-Accessories"
 
 
     },
     {
       image: "https://soopermall.com/cdn/shop/files/images_12.jpg?v=1782661739&width=700",
       title: "Audio",
-      work:"Explore now",
-      path:"/Audio"
+      work: "Explore now",
+      path: "/Audio"
 
     },
     {
       image: "https://soopermall.com/cdn/shop/files/88aa7e144b65284d377814adc51046d9.jpg?v=1783870849&width=700",
       title: "Smart Home",
-      work:"Explore now",
-      path:"/SmartHome"
+      work: "Explore now",
+      path: "/SmartHome"
 
     },
 
@@ -68,8 +68,8 @@ const Lifestyle = () => {
             key={index}
             image={item.image}
             title={item.title}
-            work ={item.work}
-              path={item.path}
+            work={item.work}
+            path={item.path}
 
           />
         ))}

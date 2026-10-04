@@ -20,7 +20,6 @@ const App = () => {
     <div>
       <Routes>
 
-        {/* Login - NO NAVBAR */}
         <Route path="/login" element={<Login />} />
 
         {/* Home - Navbar + Page */}

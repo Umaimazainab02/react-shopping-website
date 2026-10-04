@@ -74,14 +74,14 @@ const Login = () => {
                     Privacy policy
                 </p>
                 {showTerms && (
-                    <div className="fixed inset-0 z-10 bg-black/40 flex items-center justify-center p-4">
+                    <div className="fixed inset-0 z-10 bg-black/40 flex items-center justify-center p-4 ">
 
-                        <div className="bg-white w-120 max-w-xl max-h-[full] rounded-2xl shadow-xl overflow-hidden">
+                        <div className="bg-white w-120 max-w-xl max-h-[full] rounded-2xl shadow-xl ">
 
                             {/* Modal Header */}
-                            <div className="flex items-center justify-between px-8 py-5 border-b">
+                            <div className="flex items-center justify-between px-8 py-4 border-b">
 
-                                <h2 className="text-2xl font-semibold">
+                                <h2 className="text-lg font-semibold">
                                     Terms of Service
                                 </h2>
 
@@ -95,115 +95,115 @@ const Login = () => {
                             </div>
 
                             {/* Terms Content */}
-                            <div className="px-8 py-6 overflow-y-auto max-h-[70vh]">
+                            <div className="px-8 py-3 overflow-y-auto max-h-[50vh]">
 
                                 <p className="text-sm text-gray-500 mb-6">
                                     Effective Date: 7-10-2025
                                 </p>
 
-                                <p className="text-gray-700 leading-7 mb-6">
+                                <p className="text-gray-700  mb-2 text-sm">
                                     This website is operated by SooperMall. Throughout the
                                     site, the terms “we,” “us,” and “our” refer to SooperMall.
                                     By visiting our site and/or purchasing something from us,
                                     you agree to these Terms of Service.
                                 </p>
 
-                                <h3 className="text-lg font-semibold mb-2">
+                                <h3 className="text-md font-semibold mb-2">
                                     1. Overview
                                 </h3>
 
-                                <p className="text-gray-600 leading-7 mb-6">
+                                <p className="text-gray-600 mb-2 text-sm">
                                     These Terms apply to all users of the site, including
                                     browsers, vendors, customers, merchants, and contributors
                                     of content.
                                 </p>
 
-                                <h3 className="text-lg font-semibold mb-2">
+                                <h3 className="text-md font-semibold mb-2">
                                     2. Online Store Terms
                                 </h3>
 
-                                <p className="text-gray-600 leading-7 mb-6">
+                                <p className="text-gray-600 mb-2 text-sm">
                                     By agreeing to these Terms, you represent that you are at
                                     least the age of majority in your jurisdiction or have
                                     permission for any minor dependents to use this site.
                                 </p>
 
-                                <h3 className="text-lg font-semibold mb-2">
+                                <h3 className="text-md font-semibold mb-2">
                                     3. General Conditions
                                 </h3>
 
-                                <p className="text-gray-600 leading-7 mb-6">
+                                <p className="text-gray-600 mb-2 text-sm">
                                     We reserve the right to refuse service to anyone for any
                                     reason at any time. You agree not to reproduce, duplicate,
                                     copy, sell, resell, or exploit any portion of the Service
                                     without express written permission.
                                 </p>
 
-                                <h3 className="text-lg font-semibold mb-2">
+                                <h3 className="text-md font-semibold mb-2">
                                     4. Accuracy of Information
                                 </h3>
 
-                                <p className="text-gray-600 leading-7 mb-6">
+                                <p className="text-gray-600 mb-2 text-sm">
                                     The material on this site is provided for general
                                     information only. We reserve the right to modify the
                                     contents of this site at any time.
                                 </p>
 
-                                <h3 className="text-lg font-semibold mb-2">
+                                <h3 className="text-md font-semibold mb-2">
                                     5. Products and Prices
                                 </h3>
 
-                                <p className="text-gray-600 leading-7 mb-6">
+                                <p className="text-gray-600 mb-2 text-sm">
                                     Prices for our products are subject to change without
                                     notice. Certain products may have limited quantities and
                                     may be subject to return or exchange according to our
                                     Return and Refund Policy.
                                 </p>
 
-                                <h3 className="text-lg font-semibold mb-2">
+                                <h3 className="text-md font-semibold mb-2">
                                     6. Billing and Account Information
                                 </h3>
 
-                                <p className="text-gray-600 leading-7 mb-6">
+                                <p className="text-gray-600 mb-2 text-sm">
                                     You agree to provide current, complete, and accurate
                                     purchase and account information for all purchases made
                                     at our store.
                                 </p>
 
-                                <h3 className="text-lg font-semibold mb-2">
+                                <h3 className="text-md font-semibold mb-2">
                                     7. Personal Information
                                 </h3>
 
-                                <p className="text-gray-600 leading-7 mb-6">
+                                <p className="text-gray-600 mb-2 text-sm">
                                     Your submission of personal information through the store
                                     is governed by our Privacy Policy.
                                 </p>
 
-                                <h3 className="text-lg font-semibold mb-2">
+                                <h3 className="text-md font-semibold mb-2">
                                     8. Prohibited Uses
                                 </h3>
 
-                                <p className="text-gray-600 leading-7 mb-6">
+                                <p className="text-gray-600 mb-2 text-sm">
                                     You are prohibited from using the site for any unlawful
                                     purpose, violating applicable laws, infringing intellectual
                                     property rights, harassing others, or uploading malicious
                                     code.
                                 </p>
 
-                                <h3 className="text-lg font-semibold mb-2">
+                                <h3 className="text-md font-semibold mb-2">
                                     9. Changes to Terms
                                 </h3>
 
-                                <p className="text-gray-600 leading-7 mb-6">
+                                <p className="text-gray-600 mb-2 text-sm">
                                     We reserve the right to update, change, or replace any
                                     part of these Terms by posting updates on our website.
                                 </p>
 
-                                <h3 className="text-lg font-semibold mb-2">
+                                <h3 className="text-md font-semibold mb-2">
                                     10. Contact Information
                                 </h3>
 
-                                <p className="text-gray-600 leading-7">
+                                <p className="text-gray-600 text-sm">
                                     If you have any questions about these Terms, you can
                                     contact us through the contact information provided on
                                     our website.
@@ -281,315 +281,315 @@ const Login = () => {
 
                                 </p>
 
-                                    {/* Personal Information */}
-                                    <p>
-                                       <strong>Contact Details </strong>including your name, address, billing address,
-                                        shipping address, phone number, and email address.
-                                    </p>
+                                {/* Personal Information */}
+                                <p>
+                                    <strong>Contact Details </strong>including your name, address, billing address,
+                                    shipping address, phone number, and email address.
+                                </p>
 
-                                    <p className="mt-3">
-                                       <strong>Financial Information </strong>including credit card, debit card, and
-                                        financial account numbers, payment card information, financial
-                                        account information, transaction details, form of payment,
-                                        payment confirmation and other payment details.
-                                    </p>
+                                <p className="mt-3">
+                                    <strong>Financial Information </strong>including credit card, debit card, and
+                                    financial account numbers, payment card information, financial
+                                    account information, transaction details, form of payment,
+                                    payment confirmation and other payment details.
+                                </p>
 
-                                    <p className="mt-3">
-                                       <strong>Account Information </strong> including your username, password, security
-                                        questions, preferences and settings.
-                                    </p>
+                                <p className="mt-3">
+                                    <strong>Account Information </strong> including your username, password, security
+                                    questions, preferences and settings.
+                                </p>
 
-                                    <p className="mt-3">
-                                       <strong>Transaction Information </strong> including the items you view, put in your
-                                        cart, add to your wishlist, or purchase, return, exchange or
-                                        cancel and your past transactions.
-                                    </p>
+                                <p className="mt-3">
+                                    <strong>Transaction Information </strong> including the items you view, put in your
+                                    cart, add to your wishlist, or purchase, return, exchange or
+                                    cancel and your past transactions.
+                                </p>
 
-                                    <p className="mt-3">
-                                       <strong>Communications with Us </strong> including the information you include in
-                                        communications with us, for example, when sending a customer
-                                        support inquiry.
-                                    </p>
+                                <p className="mt-3">
+                                    <strong>Communications with Us </strong> including the information you include in
+                                    communications with us, for example, when sending a customer
+                                    support inquiry.
+                                </p>
 
-                                    <p className="mt-3">
-                                       <strong>Device Information </strong> including information about your device,
-                                        browser, or network connection, your IP address, and other unique
-                                        identifiers.
-                                    </p>
+                                <p className="mt-3">
+                                    <strong>Device Information </strong> including information about your device,
+                                    browser, or network connection, your IP address, and other unique
+                                    identifiers.
+                                </p>
 
-                                    <p className="mt-3">
-                                      <strong>Usage Information </strong> including information regarding your interaction
-                                        with the Services, including how and when you interact with or
-                                        navigate the Services.
-                                    </p>
-
-
-                                    {/* Personal Information Sources */}
-                                    <h3 className="text-lg font-semibold mt-6 mb-3">
-                                        Personal Information Sources
-                                    </h3>
-
-                                    <p>
-                                        We may collect personal information from the following sources:
-                                    </p>
-
-                                    <p className="mt-3">
-                                        <strong>Directly from you</strong> including when you create an
-                                        account, visit or use the Services, communicate with us, or
-                                        otherwise provide us with your personal information.
-                                    </p>
-
-                                    <p className="mt-3">
-                                        <strong>Automatically through the Services</strong> including from
-                                        your device when you use our products or services or visit our
-                                        websites, and through the use of cookies and similar technologies.
-                                    </p>
-
-                                    <p className="mt-3">
-                                        <strong>From our service providers</strong> including when we engage
-                                        them to enable certain technology and when they collect or process
-                                        your personal information on our behalf.
-                                    </p>
-
-                                    <p className="mt-3">
-                                        <strong>From our partners or other third parties.</strong>
-                                    </p>
+                                <p className="mt-3">
+                                    <strong>Usage Information </strong> including information regarding your interaction
+                                    with the Services, including how and when you interact with or
+                                    navigate the Services.
+                                </p>
 
 
-                                    {/* How We Use */}
-                                    <h3 className="text-lg font-semibold mt-6 mb-3">
-                                        How We Use Your Personal Information
-                                    </h3>
+                                {/* Personal Information Sources */}
+                                <h3 className="text-lg font-semibold mt-6 mb-3">
+                                    Personal Information Sources
+                                </h3>
 
-                                    <p>
-                                        Depending on how you interact with us or which of the Services you
-                                        use, we may use personal information for the following purposes:
-                                    </p>
+                                <p>
+                                    We may collect personal information from the following sources:
+                                </p>
 
-                                    <p className="mt-3">
-                                        <strong>Provide, Tailor, and Improve the Services.</strong> We use
-                                        your personal information to provide you with the Services,
-                                        including to process your payments, fulfill your orders, remember
-                                        your preferences, process purchases, returns, exchanges or other
-                                        transactions, manage your account, arrange shipping, facilitate
-                                        returns and exchanges, enable reviews, and create a customized
-                                        shopping experience.
-                                    </p>
+                                <p className="mt-3">
+                                    <strong>Directly from you</strong> including when you create an
+                                    account, visit or use the Services, communicate with us, or
+                                    otherwise provide us with your personal information.
+                                </p>
 
-                                    <p className="mt-3">
-                                        <strong>Marketing and Advertising.</strong> We use your personal
-                                        information for marketing and promotional purposes, such as sending
-                                        marketing, advertising and promotional communications by email,
-                                        text message or postal mail, and showing you online advertisements.
-                                    </p>
+                                <p className="mt-3">
+                                    <strong>Automatically through the Services</strong> including from
+                                    your device when you use our products or services or visit our
+                                    websites, and through the use of cookies and similar technologies.
+                                </p>
 
-                                    <p className="mt-3">
-                                        <strong>Security and Fraud Prevention.</strong> We use your
-                                        personal information to authenticate your account, provide a secure
-                                        payment and shopping experience, detect possible fraudulent,
-                                        illegal, unsafe, or malicious activity, and secure our services.
-                                    </p>
+                                <p className="mt-3">
+                                    <strong>From our service providers</strong> including when we engage
+                                    them to enable certain technology and when they collect or process
+                                    your personal information on our behalf.
+                                </p>
 
-                                    <p className="mt-3">
-                                        <strong>Communicating with You.</strong> We use your personal
-                                        information to provide customer support and maintain our business
-                                        relationship with you.
-                                    </p>
-
-                                    <p className="mt-3">
-                                        <bold>Legal Reasons.</bold> We use your personal information to
-                                        comply with applicable law or respond to valid legal processes and
-                                        to enforce or investigate potential violations of our terms or
-                                        policies.
-                                    </p>
+                                <p className="mt-3">
+                                    <strong>From our partners or other third parties.</strong>
+                                </p>
 
 
-                                    {/* Disclosure */}
-                                    <h3 className="text-lg font-semibold mt-6 mb-3">
-                                        How We Disclose Personal Information
-                                    </h3>
+                                {/* How We Use */}
+                                <h3 className="text-lg font-semibold mt-6 mb-3">
+                                    How We Use Your Personal Information
+                                </h3>
 
-                                    <p>
-                                        In certain circumstances, we may disclose your personal information
-                                        to third parties for legitimate purposes subject to this Privacy
-                                        Policy.
-                                    </p>
+                                <p>
+                                    Depending on how you interact with us or which of the Services you
+                                    use, we may use personal information for the following purposes:
+                                </p>
 
-                                    <p className="mt-3">
-                                        We may share information with Shopify, vendors and other third
-                                        parties who perform services on our behalf, such as IT management,
-                                        payment processing, data analytics, customer support, cloud
-                                        storage, fulfillment and shipping.
-                                    </p>
+                                <p className="mt-3">
+                                    <strong>Provide, Tailor, and Improve the Services.</strong> We use
+                                    your personal information to provide you with the Services,
+                                    including to process your payments, fulfill your orders, remember
+                                    your preferences, process purchases, returns, exchanges or other
+                                    transactions, manage your account, arrange shipping, facilitate
+                                    returns and exchanges, enable reviews, and create a customized
+                                    shopping experience.
+                                </p>
 
-                                    <p className="mt-3">
-                                        We may also share information with business and marketing partners
-                                        to provide marketing services and advertising.
-                                    </p>
+                                <p className="mt-3">
+                                    <strong>Marketing and Advertising.</strong> We use your personal
+                                    information for marketing and promotional purposes, such as sending
+                                    marketing, advertising and promotional communications by email,
+                                    text message or postal mail, and showing you online advertisements.
+                                </p>
 
-                                    <p className="mt-3">
-                                        We may disclose information when you direct, request us or otherwise
-                                        consent to such disclosure, including for shipping products or
-                                        through social media widgets or login integrations.
-                                    </p>
+                                <p className="mt-3">
+                                    <strong>Security and Fraud Prevention.</strong> We use your
+                                    personal information to authenticate your account, provide a secure
+                                    payment and shopping experience, detect possible fraudulent,
+                                    illegal, unsafe, or malicious activity, and secure our services.
+                                </p>
 
+                                <p className="mt-3">
+                                    <strong>Communicating with You.</strong> We use your personal
+                                    information to provide customer support and maintain our business
+                                    relationship with you.
+                                </p>
 
-                                    {/* Shopify */}
-                                    <h3 className="text-lg font-semibold mt-6 mb-3">
-                                        Relationship with Shopify
-                                    </h3>
-
-                                    <p>
-                                        The Services are hosted by Shopify, which collects and processes
-                                        personal information about your access to and use of the Services
-                                        in order to provide and improve the Services for you.
-                                    </p>
-
-                                    <p className="mt-3">
-                                        Information you submit to the Services may be transmitted to and
-                                        shared with Shopify and third parties that may be located in
-                                        countries other than where you reside.
-                                    </p>
-
-
-                                    {/* Third Party */}
-                                    <h3 className="text-lg font-semibold mt-6 mb-3">
-                                        Third Party Websites and Links
-                                    </h3>
-
-                                    <p>
-                                        The Services may provide links to websites or other online
-                                        platforms operated by third parties. If you follow links to sites
-                                        not affiliated or controlled by us, you should review their privacy
-                                        and security policies and other terms and conditions.
-                                    </p>
+                                <p className="mt-3">
+                                    <bold>Legal Reasons.</bold> We use your personal information to
+                                    comply with applicable law or respond to valid legal processes and
+                                    to enforce or investigate potential violations of our terms or
+                                    policies.
+                                </p>
 
 
-                                    {/* Children */}
-                                    <h3 className="text-lg font-semibold mt-6 mb-3">
-                                        Children's Data
-                                    </h3>
+                                {/* Disclosure */}
+                                <h3 className="text-lg font-semibold mt-6 mb-3">
+                                    How We Disclose Personal Information
+                                </h3>
 
-                                    <p>
-                                        The Services are not intended to be used by children, and we do not
-                                        knowingly collect personal information about children under the age
-                                        of majority in your jurisdiction.
-                                    </p>
+                                <p>
+                                    In certain circumstances, we may disclose your personal information
+                                    to third parties for legitimate purposes subject to this Privacy
+                                    Policy.
+                                </p>
 
+                                <p className="mt-3">
+                                    We may share information with Shopify, vendors and other third
+                                    parties who perform services on our behalf, such as IT management,
+                                    payment processing, data analytics, customer support, cloud
+                                    storage, fulfillment and shipping.
+                                </p>
 
-                                    {/* Security */}
-                                    <h3 className="text-lg font-semibold mt-6 mb-3">
-                                        Security and Retention of Your Information
-                                    </h3>
+                                <p className="mt-3">
+                                    We may also share information with business and marketing partners
+                                    to provide marketing services and advertising.
+                                </p>
 
-                                    <p>
-                                        Please be aware that no security measures are perfect or
-                                        impenetrable, and we cannot guarantee perfect security. We
-                                        recommend that you do not use unsecured channels to communicate
-                                        sensitive or confidential information to us.
-                                    </p>
-
-                                    <p className="mt-3">
-                                        How long we retain your personal information depends on different
-                                        factors, such as whether we need the information to maintain your
-                                        account, provide Services, comply with legal obligations, resolve
-                                        disputes or enforce applicable contracts and policies.
-                                    </p>
+                                <p className="mt-3">
+                                    We may disclose information when you direct, request us or otherwise
+                                    consent to such disclosure, including for shipping products or
+                                    through social media widgets or login integrations.
+                                </p>
 
 
-                                    {/* Rights */}
-                                    <h3 className="text-lg font-semibold mt-6 mb-3">
-                                        Your Rights and Choices
-                                    </h3>
+                                {/* Shopify */}
+                                <h3 className="text-lg font-semibold mt-6 mb-3">
+                                    Relationship with Shopify
+                                </h3>
 
-                                    <p>
-                                        Depending on where you live, you may have some or all of the
-                                        following rights in relation to your personal information.
-                                    </p>
+                                <p>
+                                    The Services are hosted by Shopify, which collects and processes
+                                    personal information about your access to and use of the Services
+                                    in order to provide and improve the Services for you.
+                                </p>
 
-                                    <p className="mt-3">
-                                        <strong>Right to Access / Know.</strong> You may have a right to
-                                        request access to personal information that we hold about you.
-                                    </p>
-
-                                    <p className="mt-3">
-                                        <strong>Right to Delete.</strong> You may have a right to request
-                                        that we delete personal information we maintain about you.
-                                    </p>
-
-                                    <p className="mt-3">
-                                        <strong>Right to Correct.</strong> You may have a right to request
-                                        that we correct inaccurate personal information.
-                                    </p>
-
-                                    <p className="mt-3">
-                                        <strong>Right of Portability.</strong> You may have a right to
-                                        receive a copy of the personal information we hold about you and,
-                                        in certain circumstances, request that we transfer it to a third
-                                        party.
-                                    </p>
-
-                                    <p className="mt-3">
-                                        <strong>Managing Communication Preferences.</strong> You may opt
-                                        out of promotional emails using the unsubscribe option provided in
-                                        those emails.
-                                    </p>
+                                <p className="mt-3">
+                                    Information you submit to the Services may be transmitted to and
+                                    shared with Shopify and third parties that may be located in
+                                    countries other than where you reside.
+                                </p>
 
 
-                                    {/* Complaints */}
-                                    <h3 className="text-lg font-semibold mt-6 mb-3">
-                                        Complaints
-                                    </h3>
+                                {/* Third Party */}
+                                <h3 className="text-lg font-semibold mt-6 mb-3">
+                                    Third Party Websites and Links
+                                </h3>
 
-                                    <p>
-                                        If you have complaints about how we process your personal
-                                        information, please contact us using the contact details provided
-                                        below.
-                                    </p>
-
-
-                                    {/* International */}
-                                    <h3 className="text-lg font-semibold mt-6 mb-3">
-                                        International Transfers
-                                    </h3>
-
-                                    <p>
-                                        Please note that we may transfer, store and process your personal
-                                        information outside the country you live in.
-                                    </p>
+                                <p>
+                                    The Services may provide links to websites or other online
+                                    platforms operated by third parties. If you follow links to sites
+                                    not affiliated or controlled by us, you should review their privacy
+                                    and security policies and other terms and conditions.
+                                </p>
 
 
-                                    {/* Changes */}
-                                    <h3 className="text-lg font-semibold mt-6 mb-3">
-                                        Changes to This Privacy Policy
-                                    </h3>
+                                {/* Children */}
+                                <h3 className="text-lg font-semibold mt-6 mb-3">
+                                    Children's Data
+                                </h3>
 
-                                    <p>
-                                        We may update this Privacy Policy from time to time, including to
-                                        reflect changes to our practices or for other operational, legal,
-                                        or regulatory reasons. We will post the revised Privacy Policy on
-                                        this website and update the "Last updated" date.
-                                    </p>
+                                <p>
+                                    The Services are not intended to be used by children, and we do not
+                                    knowingly collect personal information about children under the age
+                                    of majority in your jurisdiction.
+                                </p>
 
 
-                                    {/* Contact */}
-                                    <h3 className="text-lg font-semibold mt-6 mb-3">
-                                        Contact
-                                    </h3>
+                                {/* Security */}
+                                <h3 className="text-lg font-semibold mt-6 mb-3">
+                                    Security and Retention of Your Information
+                                </h3>
 
-                                    <p className="pb-9">
-                                        Should you have any questions about our privacy practices or this
-                                        Privacy Policy, or if you would like to exercise any of the rights
-                                        available to you, please call +92 333 3399743 or email us at
-                                        officialsoopermall@gmail.com or contact us at 334 Street Number 1,
-                                        Lahore 54770, Pakistan.
-                                    </p>
+                                <p>
+                                    Please be aware that no security measures are perfect or
+                                    impenetrable, and we cannot guarantee perfect security. We
+                                    recommend that you do not use unsecured channels to communicate
+                                    sensitive or confidential information to us.
+                                </p>
 
-                                </div>
+                                <p className="mt-3">
+                                    How long we retain your personal information depends on different
+                                    factors, such as whether we need the information to maintain your
+                                    account, provide Services, comply with legal obligations, resolve
+                                    disputes or enforce applicable contracts and policies.
+                                </p>
+
+
+                                {/* Rights */}
+                                <h3 className="text-lg font-semibold mt-6 mb-3">
+                                    Your Rights and Choices
+                                </h3>
+
+                                <p>
+                                    Depending on where you live, you may have some or all of the
+                                    following rights in relation to your personal information.
+                                </p>
+
+                                <p className="mt-3">
+                                    <strong>Right to Access / Know.</strong> You may have a right to
+                                    request access to personal information that we hold about you.
+                                </p>
+
+                                <p className="mt-3">
+                                    <strong>Right to Delete.</strong> You may have a right to request
+                                    that we delete personal information we maintain about you.
+                                </p>
+
+                                <p className="mt-3">
+                                    <strong>Right to Correct.</strong> You may have a right to request
+                                    that we correct inaccurate personal information.
+                                </p>
+
+                                <p className="mt-3">
+                                    <strong>Right of Portability.</strong> You may have a right to
+                                    receive a copy of the personal information we hold about you and,
+                                    in certain circumstances, request that we transfer it to a third
+                                    party.
+                                </p>
+
+                                <p className="mt-3">
+                                    <strong>Managing Communication Preferences.</strong> You may opt
+                                    out of promotional emails using the unsubscribe option provided in
+                                    those emails.
+                                </p>
+
+
+                                {/* Complaints */}
+                                <h3 className="text-lg font-semibold mt-6 mb-3">
+                                    Complaints
+                                </h3>
+
+                                <p>
+                                    If you have complaints about how we process your personal
+                                    information, please contact us using the contact details provided
+                                    below.
+                                </p>
+
+
+                                {/* International */}
+                                <h3 className="text-lg font-semibold mt-6 mb-3">
+                                    International Transfers
+                                </h3>
+
+                                <p>
+                                    Please note that we may transfer, store and process your personal
+                                    information outside the country you live in.
+                                </p>
+
+
+                                {/* Changes */}
+                                <h3 className="text-lg font-semibold mt-6 mb-3">
+                                    Changes to This Privacy Policy
+                                </h3>
+
+                                <p>
+                                    We may update this Privacy Policy from time to time, including to
+                                    reflect changes to our practices or for other operational, legal,
+                                    or regulatory reasons. We will post the revised Privacy Policy on
+                                    this website and update the "Last updated" date.
+                                </p>
+
+
+                                {/* Contact */}
+                                <h3 className="text-lg font-semibold mt-6 mb-3">
+                                    Contact
+                                </h3>
+
+                                <p className="pb-9">
+                                    Should you have any questions about our privacy practices or this
+                                    Privacy Policy, or if you would like to exercise any of the rights
+                                    available to you, please call +92 333 3399743 or email us at
+                                    officialsoopermall@gmail.com or contact us at 334 Street Number 1,
+                                    Lahore 54770, Pakistan.
+                                </p>
 
                             </div>
 
                         </div>
+
+                    </div>
                 )}
             </div>
         </div >
