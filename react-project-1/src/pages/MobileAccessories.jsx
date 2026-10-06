@@ -44,21 +44,14 @@ const MobileAccessories = () => {
           Curated Collection
         </p>
 
-        <h1 className='font-bold text-lg md:text-5xl'>
-          Mobile Accessories
-        </h1>
-
-        <p className="font-bold">
-          {Mobile.length} products
-        </p>
-
+        
       </div>
 
       <div className='flex justify-between p-4 md:p-6'>
-
-        <p className='text-gray-600 text-[9px] lg:text-md'>
-          Showing curated picks from Mobile Accessories
+        <p className='text-gray-600 text-[9px] lg:text-sm ml-4 mt-1.5'>
+         Mobile Accessories / {Mobile.length} products
         </p>
+
 
         <select
           className="border border-gray-300 rounded-3xl px-1 md:px-4 py-2 outline-none text-[9px] md:text-sm"

@@ -3,8 +3,6 @@ import { Routes, Route } from 'react-router-dom'
 
 import Navbar1 from './components/Navbar1'
 import Navbar2 from './components/Navbar2'
-import Navbar3 from './components/Navbar3'
-
 import ProductDetails from './pages/ProductDetails'
 import DeskSetup from './pages/DeskSetup'
 import TravelGadgets from './pages/TravelGadgets'
@@ -29,7 +27,6 @@ const App = () => {
             <>
               <Navbar1 />
               <Navbar2 />
-              <Navbar3 />
               <Home />
             </>
           }
@@ -42,7 +39,6 @@ const App = () => {
             <>
               <Navbar1 />
               <Navbar2 />
-              <Navbar3 />
               <DeskSetup />
             </>
           }
@@ -55,7 +51,6 @@ const App = () => {
             <>
               <Navbar1 />
               <Navbar2 />
-              <Navbar3 />
               <TravelGadgets />
             </>
           }
@@ -68,7 +63,6 @@ const App = () => {
             <>
               <Navbar1 />
               <Navbar2 />
-              <Navbar3 />
               <Gaming />
             </>
           }
@@ -81,7 +75,6 @@ const App = () => {
             <>
               <Navbar1 />
               <Navbar2 />
-              <Navbar3 />
               <MobileAccessories />
             </>
           }
@@ -94,7 +87,6 @@ const App = () => {
             <>
               <Navbar1 />
               <Navbar2 />
-              <Navbar3 />
               <Audio />
             </>
           }
@@ -107,7 +99,6 @@ const App = () => {
             <>
               <Navbar1 />
               <Navbar2 />
-              <Navbar3 />
               <SmartHome />
             </>
           }
@@ -120,7 +111,6 @@ const App = () => {
             <>
               <Navbar1 />
               <Navbar2 />
-              <Navbar3 />
               <ProductDetails />
             </>
           }
@@ -132,7 +122,6 @@ const App = () => {
             <>
               <Navbar1 />
               <Navbar2 />
-              <Navbar3 />
               <ProductDetails />
             </>
           }

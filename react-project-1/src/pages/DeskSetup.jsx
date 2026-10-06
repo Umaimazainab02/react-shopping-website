@@ -14,23 +14,15 @@ const DeskSetup = () => {
         <p className='tracking-widest uppercase text-[#2CBEE4] font-bold text-sm'>
           Curated Collection
         </p>
-
-        <h1 className='font-bold text-lg md:text-5xl'>
-          Desk Setup
-        </h1>
-
-        <p className='font-bold'>
-          45 products
-        </p>
-
+        
       </div>
 
 
       {/* Filter / Sort */}
       <div className='flex justify-between p-4 md:p-6'>
 
-        <p className='text-gray-600 text-[9px] lg:text-sm'>
-          Showing curated picks from Desk Setup
+        <p className='text-gray-600 text-[9px] lg:text-sm ml-4 mt-1.5'>
+          Desktop / 45 products
         </p>
 
         <select

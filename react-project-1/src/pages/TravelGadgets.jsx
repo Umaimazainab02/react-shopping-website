@@ -46,20 +46,14 @@ const TravelGudgets = () => {
           Curated Collection
         </p>
 
-        <h1 className='font-bold text-lg md:text-5xl'>
-          Travel Gadgets
-        </h1>
-
-        <p className="font-bold">
-          {Travel.length} products
-        </p>
+        
 
       </div>
 
       <div className='flex justify-between p-4 md:p-6'>
 
-        <p className='text-gray-600 text-[9px] lg:text-sm'>
-          Showing curated picks from Travel Gadgets
+        <p className='text-gray-600 text-[9px] lg:text-sm ml-4 mt-1.5'>
+          Travel Gadgets / {Travel.length} products
         </p>
 
         <select

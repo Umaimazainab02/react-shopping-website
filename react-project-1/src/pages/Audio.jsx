@@ -14,22 +14,15 @@ const Audio = () => {
                     Curated Collection
                 </p>
 
-                <h1 className='font-bold text-lg md:text-5xl'>
-                    Audio
-                </h1>
-
-                <p className="font-bold">
-                    20 products
-                </p>
-
             </div>
 
             {/* Sort */}
             <div className='flex justify-between p-4 md:p-6'>
 
-        <p className='text-gray-600 text-[9px] lg:text-sm'>
-                    Showing curated picks from Audio
-                </p>
+                    <p className='text-gray-600 text-[9px] lg:text-sm ml-4 mt-1.5'>
+                        Audio / 20 products
+
+                    </p>               
 
                 <select
                     className="border border-gray-300 rounded-3xl px-1 md:px-4 py-2 outline-none text-[9px] md:text-sm"
