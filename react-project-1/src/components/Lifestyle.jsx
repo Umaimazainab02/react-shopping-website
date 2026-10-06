@@ -52,11 +52,11 @@ const Lifestyle = () => {
     <div className=''>
 
       <div className="flex flex-col items-center justify-center text-center mt-14">
-        <h1 className="text-4xl font-bold">
+        <h1 className="text-lg md:text-4xl font-bold">
           Shop By Lifestyle
         </h1>
 
-        <p className="mt-2 text-gray-900">
+        <p className="mt-2 text-gray-900 text-[7px] md:text-lg">
           Discover premium tech designed for work, travel, gaming,
           and everyday productivity.
         </p>

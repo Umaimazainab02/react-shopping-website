@@ -69,8 +69,7 @@ const MobileAccessories = () => {
 
       </div>
 
-      <div className="flex flex-wrap gap-5 mx-7 mb-30">
-
+<div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 mb-30">
         {sortedProducts.length === 0 ? (
           <h1 className="w-full text-center text-2xl font-semibold">
             No products found

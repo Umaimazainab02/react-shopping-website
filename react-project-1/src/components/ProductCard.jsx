@@ -10,13 +10,12 @@ const ProductCard = ({ product }) => {
             onClick={() =>
                 navigate(`/product/${product.category}/${product.id}`)
             }
-            className="w-full sm:w-[48%] lg:w-[30%] rounded-xl cursor-pointer overflow-hidden"
-        >
+            className="w-full rounded-xl cursor-pointer overflow-hidden"        >
 
             {/* Image */}
-            <div className="border border-gray-200 rounded-xl">
+            <div className="">
 
-                <div className="w-full h-[280px] rounded-t-xl bg-gray-100 px-2 flex items-center justify-center overflow-hidden">
+                <div className="w-full h-[200px] md:h-[280px] rounded-t-xl flex items-center justify-center overflow-hidden">
 
                     <img
                         src={product.image}
@@ -27,22 +26,22 @@ const ProductCard = ({ product }) => {
                 </div>
 
                 {/* Details */}
-                <div className="mt-4 p-4">
+                <div className="mt-0 md:mt-4 p-4">
 
-                    <h2 className="text-[15px] font-bold h-12 line-clamp-2">
+                    <h2 className="text-[10px] md:text-[15px]  h-12 line-clamp-2">
                         {product.title}
                     </h2>
 
                     <div className="flex gap-2 mt-2">
 
-                        <span className="line-through text-gray-400">
-                            {product.oldPrice}
-                        </span>
 
-                        <span className="font-bold">
+
+                        <span className="text-sm md:text-lg font-bold">
                             {product.price}
                         </span>
-
+                        <span className="line-through text-gray-400 text-[10px] md:text-sm">
+                            {product.oldPrice}
+                        </span>
                     </div>
 
                     <button
@@ -50,7 +49,7 @@ const ProductCard = ({ product }) => {
                             e.stopPropagation()
                             // Add to cart logic here
                         }}
-                        className="text-lg font-medium text-white bg-black w-full rounded-full p-2 mt-3 transition-all duration-200 hover:-translate-y-[1px] hover:scale-[1.02] hover:bg-blue-400"
+                        className="text-[10px] md:text-lg font-medium text-white bg-black w-fit md:w-full rounded-xl p-2 mt-3 transition-all duration-200 hover:-translate-y-[1px] hover:scale-[1.02] hover:bg-blue-400"
                     >
                         Add to cart
                     </button>

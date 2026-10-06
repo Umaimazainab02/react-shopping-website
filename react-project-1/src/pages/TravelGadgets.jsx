@@ -18,12 +18,12 @@ const TravelGudgets = () => {
 
     if (sortBy === 'low') {
       return parseFloat(a.price.replace(/[^\d.]/g, '')) -
-             parseFloat(b.price.replace(/[^\d.]/g, ''))
+        parseFloat(b.price.replace(/[^\d.]/g, ''))
     }
 
     if (sortBy === 'high') {
       return parseFloat(b.price.replace(/[^\d.]/g, '')) -
-             parseFloat(a.price.replace(/[^\d.]/g, ''))
+        parseFloat(a.price.replace(/[^\d.]/g, ''))
     }
 
     if (sortBy === 'old') {
@@ -46,7 +46,7 @@ const TravelGudgets = () => {
           Curated Collection
         </p>
 
-        
+
 
       </div>
 
@@ -72,8 +72,7 @@ const TravelGudgets = () => {
 
       </div>
 
-      <div className="flex flex-wrap gap-5 mx-7 mb-30">
-
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 mb-30">
         {sortedProducts.map((item) => (
           <ProductCard
             key={item.id}

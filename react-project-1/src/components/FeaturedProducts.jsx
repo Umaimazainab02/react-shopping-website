@@ -46,16 +46,16 @@ const FeaturedProducts = () => {
     <div>
 
       <div className="flex flex-col items-center justify-center text-center mt-14">
-        <h1 className="text-4xl font-bold">
+        <h1 className="text-lg md:text-4xl font-bold">
           Featured Products
         </h1>
 
-        <p className="mt-2 text-gray-900">
+        <p className="mt-2 text-gray-900 text-[7px] md:text-lg">
           Our most popular products
         </p>
       </div>
 
-      <div className="flex flex-nowrap gap-5 mx-7 mt-8 mb-30">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 mb-30 p-2">
 
         {FeaturedProducts.map((item) => (
           <ProductCard

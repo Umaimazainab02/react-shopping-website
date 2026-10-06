@@ -6,10 +6,7 @@ const MobileAccessoriesproduct = () => {
   return (
     <div>
 
-      <div className="flex flex-col text-center mt-14">
-      </div>
-
-      <div className="flex flex-wrap gap-5 mx-7 mb-30">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 mb-30">
 
         {Mobile.length === 0 ? (
           <h1 className="text-center w-full text-2xl font-semibold">

@@ -6,8 +6,7 @@ const Desktoproduct = () => {
   return (
     <div>
 
-      <div className="flex flex-wrap gap-5 mx-7 mb-30">
-
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 mb-30 mx-0 md:mx-4">
         {Deskproduct.length === 0 ? (
           <p className="w-full text-center text-gray-500">
             No Products Available
@@ -15,7 +14,7 @@ const Desktoproduct = () => {
         ) : (
           Deskproduct.map((item) => (
             <ProductCard
-              key={item.id}
+               key={item.id}
               product={{
                 ...item,
                 category: "Desk-Setup"

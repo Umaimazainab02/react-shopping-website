@@ -3,7 +3,7 @@ const Deskproduct = [
     id: 1,
 
     image:
-      "https://soopermall.com/cdn/shop/files/file_00000000612c71f5b7dac5a640a002fa_e8a46702-b328-42ea-944b-eba8f933f2f1.png?v=1783261242&width=1200",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4CvrgWtMm-sULl8dpz_K4PpktjBkQbhsB35C7Zr9SOQ&s=10",
 
     title:
       "SooperHub 8-in-1 USB TYPE C HUB with 4K HDMI, PD Charging & Ethernet",
@@ -600,7 +600,7 @@ const Deskproduct = [
     ]
   }, {
     id: 13,
-    image: "https://soopermall.com/cdn/shop/files/6a9d7b98abee388c84a3674733643bea.webp?v=1759005900&width=1200",
+    image: "https://mustafacomputers.pk/cdn/shop/files/Layer1_010c9068-1f67-4b7e-adb6-6e8bb521783e.jpg?v=1739101991",
     title: "A4tech Hu-35 USB headphone",
     oldPrice: "",
     price: "Rs.3,550.00",
