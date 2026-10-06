@@ -62,7 +62,7 @@ const Lifestyle = () => {
         </p>
       </div>
 
-      <div className="flex flex-nowrap gap-5 mx-7 mt-8  overflow-x-auto overflow-y-auto scrollbar-hide mb-30">
+      <div className="flex flex-nowrap gap-5 mx-3 md:mx-7 mt-8  overflow-x-auto overflow-y-auto scrollbar-hide mb-30">
         {lifestyles.map((item, index) => (
           <LifestyleCard
             key={index}

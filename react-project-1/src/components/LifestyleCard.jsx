@@ -7,7 +7,7 @@ const LifestyleCard = ({ image, title, work, path }) => {
   return (
     <div
       onClick={() => navigate(path)}
-      className="relative w-[292px] h-78 shrink-0 overflow-hidden rounded-2xl cursor-pointer"
+      className="relative w-[240px] md:[292px] h-78 shrink-0 overflow-hidden rounded-2xl cursor-pointer"
     >
       <img
         src={image}

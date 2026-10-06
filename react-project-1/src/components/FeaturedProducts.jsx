@@ -50,7 +50,7 @@ const FeaturedProducts = () => {
           Featured Products
         </h1>
 
-        <p className="mt-2 text-gray-900 text-[7px] md:text-lg">
+        <p className="mt-2 text-gray-900 text-[7px] md:text-lg mb-0 md:mb-6">
           Our most popular products
         </p>
       </div>
