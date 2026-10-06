@@ -7,16 +7,16 @@ const Navbar2 = () => {
     return (
         <div className='flex justify-between m-5 items-center'>
 
-            <div className='flex gap-6 flex-row items-center'>
+            <div className='flex flex-row  lg:gap-6 items-center'>
                 <img
                     src="https://soopermall.com/cdn/shop/files/Untitled_design_c0511e0e-87e8-4be5-ae3a-a947d6fb37af.png?v=1782641046&width=400"
                     className='w-30 h-10 cursor-pointer'
                     alt=""
                 />
 
-                <p className='text-gray-500'>|</p>
+                <p className='text-gray-500 hidden lg:inline'>|</p>
 
-                <h1 className='text-xs text-gray-500'>Tech That Fits Your Lifestyle</h1>
+                <h1 className='text-[8px] lg:text-xs text-gray-500 hidden lg:inline'>Tech That Fits Your Lifestyle</h1>
             </div>
 
             <div className="flex items-center border rounded-full w-140 overflow-hidden">
@@ -31,12 +31,12 @@ const Navbar2 = () => {
                 </div>
             </div>
 
-            <div className="flex gap-6 items-center">
-                <div className="hover:bg-gray-100 p-2 rounded-full">
+            <div className="flex gap-1 lg:gap-6 items-center">
+                <div className="hover:bg-gray-100 p-2 rounded-full hidden lg:inline">
                     <Heart size={19} strokeWidth={1.5} />
                 </div>
 
-                <div onClick={() => navigate('/login')} className="hover:bg-gray-100 p-2 rounded-full cursor-pointer">
+                <div onClick={() => navigate('/login')} className="hover:bg-gray-100 p-2 rounded-full cursor-pointer hidden lg:inline">
                     <UserRound size={19} strokeWidth={1.5} />
                 </div>
 

@@ -26,25 +26,25 @@ const Gaming = () => {
 
   return (
     <div>
-      <div className="flex flex-col items-center gap-2 my-15">
+      <div className="flex flex-col items-center gap-2 my-2 md:my-15">
         <p className="tracking-widest uppercase text-[#2CBEE4] font-bold text-sm">
           Curated Collection
         </p>
 
-        <h1 className="font-bold text-5xl">Gaming</h1>
+        <h1 className="font-bold text-lg md:text-5xl">Gaming</h1>
 
         <p className="font-bold">
           {Game.length} products
         </p>
       </div>
 
-      <div className="flex justify-between p-6">
-        <p className="text-gray-600">
+      <div className="flex justify-between p-4 md:p-6 ">
+        <p className='text-gray-600 text-[9px] lg:text-sm'>
           Showing curated picks from Gaming
         </p>
 
         <select
-          className="border border-gray-300 rounded-3xl px-4 py-2 outline-none"
+          className="border border-gray-300 rounded-3xl px-1 md:px-4 py-2 outline-none text-[9px] md:text-sm"
           value={sortBy}
           onChange={(e) => setSortBy(e.target.value)}
         >
@@ -58,11 +58,11 @@ const Gaming = () => {
 
       {/* Products / Empty State */}
       {sortedProducts.length === 0 ? (
-        <div className="flex flex-col  justify-center items-center py-8">
-          <h2 className="text-5xl font-bold text-black mb-8 ">
+        <div className="flex flex-col  justify-center items-center py-3 md:py-8">
+          <h2 className="text-lg md:text-5xl font-bold text-black mb-8 ">
             No products found
           </h2>
-          <p className='text-md'>This collection is being updated. Please check back soon.</p>
+          <p className='text-xs md:text-md'>This collection is being updated. Please check back soon.</p>
         </div>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6">

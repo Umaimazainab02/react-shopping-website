@@ -49,7 +49,7 @@ const Navbar3 = () => {
         {open && (
           <div
             onClick={() => setOpen(false)}
-            className="fixed inset-0 bg-black/90 z-40"
+            className="fixed inset-0 bg-white/90 z-40"
           />
         )}
 

@@ -26,25 +26,26 @@ const SmartHome = () => {
 
   return (
     <div>
-      <div className="flex flex-col items-center gap-2 my-15">
+      <div className='flex flex-col items-center gap-2 my-2 md:my-15'>
         <p className="tracking-widest uppercase text-[#2CBEE4] font-bold text-sm">
           Curated Collection
         </p>
 
-        <h1 className="font-bold text-5xl">Smart Home</h1>
+        <h1 className='font-bold text-lg md:text-5xl'>
+          Smart Home</h1>
 
         <p className="font-bold">
           {Smart.length} products
         </p>
       </div>
 
-      <div className="flex justify-between p-6">
-        <p className="text-gray-600">
+      <div className='flex justify-between p-4 md:p-6'>
+        <p className='text-gray-600 text-[9px] lg:text-sm'>
           Showing curated picks from Smart Home
         </p>
 
         <select
-          className="border border-gray-300 rounded-3xl px-4 py-2 outline-none"
+          className="border border-gray-300 rounded-3xl px-1 md:px-4 py-2 outline-none text-[9px] md:text-sm"
           value={sortBy}
           onChange={(e) => setSortBy(e.target.value)}
         >
