@@ -3,8 +3,8 @@ const Audi = [
     id: 1,
     image: "https://soopermall.com/cdn/shop/files/earbuds-mcdodo.webp?v=1759005511&width=1200",
     title: "Mcdodo HP-4490 Goodnight Sleep Earbuds with Sleep Mode",
-    oldPrice: "Rs.4500",
-    price: "Rs.3500",
+    oldPrice: "Rs.4500.00",
+    price: "Rs.3500.00",
     description: [
       "Mcdodo HP-4490 Goodnight Sleep Earbuds with Sleep Mode",
       "6 hours of playback time and up to 21 hours of playback time with the charging case.",
@@ -41,7 +41,7 @@ const Audi = [
     image: "https://soopermall.com/cdn/shop/files/3c7f42c9b7d1755511616.jpg?v=1785768421&width=1200",
     title: "Nia Q1 Bluetooth Wireless Headphone",
     oldPrice: "",
-    price: "Rs.3249",
+    price: "Rs.3249.00",
     description: [
       "Talk hands-free with Bluetooth technology-enabled mobile phone.",
       "Enjoy basic remote control operation (play, stop, etc.) of music player functions via Bluetooth connection.",
@@ -72,7 +72,7 @@ const Audi = [
   image: "https://soopermall.com/cdn/shop/files/301755331698.jpg?v=1785768290&width=1200",
   title: "Nia WH700 Over Ear Headsets Wireless Stereo Bluetooth Headphones Bluetooth With Mic Super Sound",
   oldPrice: "",
-  price: "Rs.3999",
+  price: "Rs.3999.00",
   description: [
     "Is wireless: Yes",
     "Wireless Type: bluetooth",
@@ -138,7 +138,7 @@ const Audi = [
   image: "https://soopermall.com/cdn/shop/files/2d034cef0131773897925.jpg?v=1786702314&width=1200",
   title: "Xtrike Me HD-215 Bluetooth 5.3 Wireless Headset Comfortable & Ergonomic Design",
   oldPrice: "",
-  price: "Rs.3599",
+  price: "Rs.3599.00",
   description: [
     "Xtrike Me HD-215 Bluetooth 5.3 Wireless Headset with Stereo Sound and Comfortable Design.",
     "Crystal-clear stereo sound with rich bass, detailed mids, and crisp highs for music, calls, and gaming.",
@@ -184,7 +184,7 @@ const Audi = [
   image: "https://soopermall.com/cdn/shop/files/3e746962af31773897750.jpg?v=1786702160&width=1200",
   title: "Xtrike Me HD-214 BK Wireless Bluetooth 5.3 Foldable Over-Ear Headphone",
   oldPrice: "",
-  price: "Rs.2999",
+  price: "Rs.2999.00",
   description: [
     "XTrike Me HD-214 BK Wireless Bluetooth 5.3 headset with foldable over-ear design, 5-hour playtime, microphone, and volume control.",
     "Bluetooth 5.3 provides a stable, low-latency wireless connection with up to 10m range.",
@@ -237,7 +237,7 @@ const Audi = [
   image: "https://soopermall.com/cdn/shop/files/headphones_2.avif?v=1786701640&width=1200",
   title: "AKZ-30 Over-Ear Bluetooth 5.3 Headphones BT / TF / FM Modes HiFi Sound Wireless Headset – Brown",
   oldPrice: "",
-  price: "Rs.2250",
+  price: "Rs.2250.00",
   description: [
     "Bluetooth 5.3 connectivity with up to 10m wireless range.",
     "Supports TF card, FM radio, and wireless playback modes.",
@@ -289,7 +289,7 @@ const Audi = [
   image: "https://soopermall.com/cdn/shop/files/2505272811916931.png?v=1786701182&width=1200",
   title: "A4TECH FH280U BLACK Fstyler Foldable Conference Headphone",
   oldPrice: "",
-  price: "Rs.5000",
+  price: "Rs.5000.00",
   description: [
     "The A4TECH FH280U Black Fstyler Foldable Conference Headphone is a premium USB over-ear headset designed for online meetings, remote work, learning, and daily communication.",
     "DSP stereo sound provides clear and balanced audio for voice calls and multimedia.",
@@ -337,7 +337,7 @@ const Audi = [
   image: "https://soopermall.com/cdn/shop/files/2902535822068935.jpg?v=1786701059&width=1200",
   title: "A4TECH FH150U USB Fstyler Stereo Headset",
   oldPrice: "",
-  price: "Rs.4480",
+  price: "Rs.4480.00",
   description: [
     "The A4TECH FH150U USB Fstyler Stereo Headset is a lightweight USB conference headset designed for online meetings, remote work, virtual learning, and multimedia use.",
     "DSP Stereo Sound provides clear voice communication and rich, balanced audio for conversations and multimedia.",
@@ -386,7 +386,7 @@ const Audi = [
   image: "https://soopermall.com/cdn/shop/files/0910284729101425.webp?v=1759005903&width=1200",
   title: "A4TECH FH-300U USB Headset",
   oldPrice: "",
-  price: "Rs.4500",
+  price: "Rs.4500.00",
   description: [
     "The A4TECH FH-300U is a USB headset designed for clear audio and everyday communication.",
     "The 50mm speaker unit provides balanced audio performance.",
@@ -435,7 +435,7 @@ const Audi = [
   image: "https://soopermall.com/cdn/shop/files/2703401249021792.webp?v=1759005904&width=1200",
   title: "A4tech FH-200u USB Headset",
   oldPrice: "",
-  price: "Rs.4500",
+  price: "Rs.4500.00",
   description: [
     "The A4TECH FH-200U USB Headset is designed for clear audio and comfortable everyday communication.",
     "The 50mm speaker unit delivers clear and balanced sound.",
@@ -481,7 +481,7 @@ const Audi = [
   image: "https://soopermall.com/cdn/shop/files/91a4b18d-cedf-4419-914a-2f21392e9fe5_1.png?v=1785769212&width=1200",
   title: "833 ANC Bluetooth Headset with Game/Music Modes & Detachable Microphone",
   oldPrice: "",
-  price: "Rs.4740",
+  price: "Rs.4740.00",
   description: [
     "The 833 ANC Bluetooth Headset features Active Noise Cancellation (ANC) technology to help reduce surrounding background noise.",
     "ANC uses built-in microphones to detect ambient noise and emits inverted sound waves to cancel out unwanted sounds.",
@@ -522,7 +522,7 @@ const Audi = [
   image: "https://soopermall.com/cdn/shop/files/NRjr7BJ8c2.webp?v=1786700728&width=1200",
   title: "WIWU TD-18 ANC Airbuds MAX Headset Black",
   oldPrice: "",
-  price: "Rs.9850",
+  price: "Rs.9850.00",
   description: [
     "The WIWU TD-18 ANC Airbuds MAX Headset in Black is a premium over-ear Bluetooth headset with advanced Active Noise Cancellation (ANC), Bluetooth 6.0, 40mm drivers, and up to approximately 40 hours of playback.",
     "Bluetooth 6.0 provides a stable and responsive wireless connection with smartphones, tablets, laptops, and other Bluetooth-enabled devices.",
@@ -577,7 +577,7 @@ const Audi = [
   image: "https://soopermall.com/cdn/shop/files/nQRtHfHyB3.webp?v=1786700498&width=1200",
   title: "WIWU TD-16 ANC Airbuds MAX Headset Black",
   oldPrice: "",
-  price: "Rs.8300",
+  price: "Rs.8300.00",
   description: [
     "The WIWU TD-16 ANC Airbuds MAX Headset in Black is a wireless Bluetooth 6.0 over-ear headphone featuring Active Noise Cancellation (ANC), long battery life, low-latency mode, and ENC call clarity.",
     "Bluetooth 6.0 connectivity provides a stable wireless connection with smartphones, tablets, laptops, and other Bluetooth-enabled devices.",
@@ -628,7 +628,7 @@ const Audi = [
   image: "https://soopermall.com/cdn/shop/files/KXmGQSBdn4.webp?v=1786700369&width=1200",
   title: "WIWU TD-15 ANC Soundbasha Headset Black",
   oldPrice: "",
-  price: "Rs.7200",
+  price: "Rs.7200.00",
   description: [
     "The WIWU TD-15 ANC Soundbasha Headset in Black is a wireless Bluetooth over-ear headphone featuring Hybrid Active Noise Cancellation (ANC), immersive Hi-Fi sound, Bluetooth 6.0, and up to 60 hours of battery life.",
     "Hybrid Active Noise Cancellation (ANC) reduces ambient sounds by up to -35 dB, helping you enjoy music, podcasts, and calls with minimal distractions.",
@@ -673,7 +673,7 @@ const Audi = [
   image: "https://soopermall.com/cdn/shop/files/11.webp?v=1786700281&width=1200",
   title: "WiWU TD-11 Joysound Wireless Bluetooth Headset",
   oldPrice: "",
-  price: "Rs.5175",
+  price: "Rs.5175.00",
   description: [
     "The WiWU TD-11 Joysound is a wireless Bluetooth headset designed for clear sound, comfort, and long listening sessions.",
     "Bluetooth wireless connectivity provides easy pairing with phones, tablets, laptops, and other compatible devices.",
@@ -717,7 +717,7 @@ const Audi = [
   image: "https://soopermall.com/cdn/shop/files/0d03c57c-adcd-4f09-b722-ef56d0ef3acb_1.jpg?v=1786700162&width=1200",
   title: "TUCCI Q6 Wired USB Headset – Ideal for Call Centers, Music & Movies",
   oldPrice: "",
-  price: "Rs.2500",
+  price: "Rs.2500.00",
   description: [
     "The TUCCI Q6 Wired USB Headset is designed to deliver clear communication, comfortable all-day wear, and high-quality stereo sound for professional and personal use.",
     "The headset is suitable for call centers, online meetings, studying, music, and watching movies.",
@@ -761,7 +761,7 @@ const Audi = [
   image: "https://soopermall.com/cdn/shop/files/154a88779805bd3866a660cb8c352658_1.png?v=1786700038&width=1200",
   title: "TUCCI Q5 Wired USB Headset – Ideal for Call Centers, Music & Movies",
   oldPrice: "",
-  price: "Rs.2100",
+  price: "Rs.2100.00",
   description: [
     "The TUCCI Q5 Wired USB Headset is designed for calls, remote work, call-center use, offices, customer service, and everyday audio needs.",
     "The headset uses USB-A plug-and-play connectivity, allowing it to connect directly to a PC or laptop without requiring extra drivers or an audio card.",
@@ -807,7 +807,7 @@ const Audi = [
   image: "https://soopermall.com/cdn/shop/files/Image_20260622181302_87_3.png?v=1786699897&width=1200",
   title: "Single Ear USB Conference & Call Center Headset",
   oldPrice: "",
-  price: "Rs.1800",
+  price: "Rs.1800.00",
   description: [
     "The Single Ear USB Conference & Call Center Headset is a professional communication headset designed for clear voice quality, comfort, and situational awareness.",
     "Its single-ear monaural design keeps one ear completely free, allowing users to stay aware of colleagues, conversations, and their surroundings while taking calls.",
@@ -850,7 +850,7 @@ const Audi = [
   image: "https://soopermall.com/cdn/shop/files/740x740_6812002575B-1.webp?v=1786699432&width=1200",
   title: "REMAX RB-920HB ANC Noise Cancelling Wireless Headphones White",
   oldPrice: "",
-  price: "Rs.6500",
+  price: "Rs.6500.00",
   description: [
     "REMAX RB-920HB White Wireless Headphones feature ANC noise cancelling technology for clear and immersive sound.",
     "The Active Noise Cancelling (ANC) technology helps reduce ambient sounds, allowing you to focus on music, podcasts, or calls.",
@@ -897,7 +897,7 @@ const Audi = [
   image: "https://soopermall.com/cdn/shop/files/740x740_6812002575A-1.webp?v=1786388026&width=1200",
   title: "REMAX RB-920HB ANC Noise Cancelling Wireless Headphones Black",
   oldPrice: "",
-  price: "Rs.6500",
+  price: "Rs.6500.00",
   description: [
     "The REMAX RB-920HB ANC Noise Cancelling Wireless Headphones in black combine active noise cancellation technology with high-fidelity sound for an immersive audio experience.",
     "The Active Noise Cancelling technology helps reduce surrounding noise, allowing you to enjoy music and other audio with fewer distractions.",
