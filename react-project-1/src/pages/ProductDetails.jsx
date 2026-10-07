@@ -175,13 +175,16 @@ const ProductDetails = () => {
                     {/* Buttons */}
                     <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6">
 
-                        <button className="cursor-pointer bg-black text-white w-full sm:w-auto px-8 sm:px-10 py-3 rounded-full font-medium hover:bg-gray-800">
+                        <button
+                            onClick={() => {
+                                localStorage.setItem("test", "hello")
+                                alert("BUTTON WORKING")
+                            }}
+                            className="bg-black text-white px-10 py-3 rounded-full cursor-pointer"
+                        >
                             Add to Cart
                         </button>
 
-                        <button className="cursor-pointer border bg-green-400 border-black w-full sm:w-auto px-8 sm:px-10 py-3 rounded-full font-medium hover:bg-gray-100">
-                            Order on WhatsApp
-                        </button>
 
                     </div>
 

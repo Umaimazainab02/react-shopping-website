@@ -88,8 +88,18 @@ const Navbar2 = () => {
 
 
                     {/* Cart */}
-                    <div className="hover:bg-gray-100 p-2 rounded-full">
+                    <div
+                        onClick={() => navigate('/cart')}
+                        className="hover:bg-gray-100 p-2 rounded-full cursor-pointer relative"
+                    >
                         <ShoppingCart size={19} strokeWidth={2.5} />
+
+                        {/* Cart Count */}
+                        {JSON.parse(localStorage.getItem('cart'))?.length > 0 && (
+                            <span className="absolute -top-1 -right-1 bg-black text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center">
+                                {JSON.parse(localStorage.getItem('cart')).length}
+                            </span>
+                        )}
                     </div>
 
                 </div>

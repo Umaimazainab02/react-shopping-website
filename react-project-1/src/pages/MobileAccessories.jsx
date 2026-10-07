@@ -44,12 +44,12 @@ const MobileAccessories = () => {
           Curated Collection
         </p>
 
-        
+
       </div>
 
       <div className='flex justify-between p-4 md:p-6'>
         <p className='text-gray-600 text-[9px] lg:text-sm ml-4 mt-1.5'>
-         Mobile Accessories / {Mobile.length} products
+          Mobile Accessories / {Mobile.length} products
         </p>
 
 
@@ -69,7 +69,7 @@ const MobileAccessories = () => {
 
       </div>
 
-<div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 mb-30">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 mb-30">
         {sortedProducts.length === 0 ? (
           <h1 className="w-full text-center text-2xl font-semibold">
             No products found

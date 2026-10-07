@@ -1,11 +1,10 @@
 const Mobile = [
     {
   id: 1,
-                category: "Mobile-Accessories",
-
+  category: "Mobile-Accessories",
   title: "Aspor A337 22.5W PD 30000mAh Fast Charge Power Bank LCD Display Black",
   image: "https://soopermall.com/cdn/shop/files/7065aef9b81776147979.jpg?v=1786713124&width=1200",
-  price: "Rs.6399",
+  price: "Rs.6399.00",
   oldPrice: null,
     rating: "⭐⭐⭐⭐⭐",
   stock: "In Stock • Ready to Ship",
@@ -54,7 +53,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/301756461664.jpg?v=1786712979&width=1200",
   title: "Aspor A336 Power Bank 20000mAh 22.5W High Capacity With LED Display Fast Charging",
   oldPrice: "",
-  price: "Rs.2899",
+  price: "Rs.2899.00",
   description: [
     "The Aspor A336 is a high-capacity 20000mAh power bank designed for fast and reliable charging.",
     "It supports 22.5W PD and QC 3.0 fast charging for compatible devices.",
@@ -105,7 +104,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/301756461585.jpg?v=1786712658&width=1200",
   title: "Aspor A335 Power Bank 10000mAh 22.5W PD+QC 3.0 With LCD Digital Display",
   oldPrice: "",
-  price: "Rs.3399",
+  price: "Rs.3399.00",
   description: [
     "The Aspor A335 is a 10000mAh ultra-thin power bank designed for fast and convenient charging.",
     "It supports fast charging with PD and QC 3.0 technology and features an LCD digital display for monitoring the remaining battery level.",
@@ -153,7 +152,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/301756461185.jpg?v=1786712497&width=1200",
   title: "Aspor A396 PD 20000mAh 22.5W Fast Charging Power Bank",
   oldPrice: "",
-  price: "Rs.4999",
+  price: "Rs.4999.00",
   description: [
     "The Aspor A396 PD Power Bank features a 20000mAh capacity with 22.5W fast charging support.",
     "It uses a polymer battery and features an LCD digital display for convenient battery-level monitoring.",
@@ -207,7 +206,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/42823896901776086401.jpg?v=1786712358&width=800",
   title: "Aspor A320 Power Bank With Display 22.5W PD + QC 3.0 10000mAh",
   oldPrice: "",
-  price: "Rs.2799",
+  price: "Rs.2799.00",
   description: [
     "The Aspor A320 is a 10000mAh power bank designed for fast and convenient charging.",
     "It supports 22.5W fast charging with PD and QC 3.0 technology.",
@@ -242,7 +241,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/301756455088.jpg?v=1786711989&width=800",
   title: "Mi Xiaomi Power Bank 20000mAh 22.5W",
   oldPrice: "",
-  price: "Rs.7999",
+  price: "Rs.7999.00",
   description: [
     "The Mi Xiaomi Power Bank offers a high 20000mAh capacity for extended everyday charging.",
     "It supports 22.5W fast charging for compatible devices.",
@@ -273,7 +272,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/301756454349.jpg?v=1786711528&width=800",
   title: "Joyroom JR-W020 20W Wireless Power Bank 10000mAh Black",
   oldPrice: "",
-  price: "Rs.6999",
+  price: "Rs.6999.00",
   description: [
     "The Joyroom JR-W020 is a 10000mAh wireless power bank designed for convenient portable charging.",
     "It supports up to 20W fast charging and wireless charging for compatible devices.",
@@ -306,7 +305,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/3ff6d00e57a1782293148_2.jpg?v=1786710617&width=800",
   title: "Joyroom JR-QP192 Mini 20000mAh 22.5W Fast Charging Power Bank",
   oldPrice: "",
-  price: "Rs.7499",
+  price: "Rs.7499.00",
   description: [
     "The Joyroom JR-QP192 is a high-capacity 20000mAh power bank designed for fast portable charging.",
     "It supports 22.5W fast charging for compatible devices.",
@@ -338,7 +337,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/301756453917.jpg?v=1786710377&width=800",
   title: "Joyroom JR-QP191 22.5W Power Bank 10000mAh",
   oldPrice: "",
-  price: "Rs.5499",
+  price: "Rs.5499.00",
   description: [
     "The Joyroom JR-QP191 is a 10000mAh portable power bank designed for fast charging.",
     "It supports up to 22.5W charging for compatible devices.",
@@ -368,7 +367,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/357ryhy1776083874.jpg?v=1786710231&width=800",
   title: "Joyroom JR-PBF02 30W Power Bank 20000mAh Black",
   oldPrice: "",
-  price: "Rs.9999",
+  price: "Rs.9999.00",
   description: [
     "The Joyroom JR-PBF02 is a high-capacity 20000mAh power bank designed for powerful portable charging.",
     "It supports up to 30W fast charging for compatible devices.",
@@ -400,7 +399,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/301756453188.jpg?v=1786710042&width=800",
   title: "Remax RPP-623 Power Bank 20000mAh 20W+22.5W PD+QC Black",
   oldPrice: "",
-  price: "Rs.4999",
+  price: "Rs.4999.00",
   description: [
     "The Remax RPP-623 is a 20000mAh power bank designed for high-capacity fast charging.",
     "It supports 20W and 22.5W fast charging with PD and QC technology.",
@@ -434,7 +433,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/301756452917.jpg?v=1786709867&width=800",
   title: "Remax RPP-622 20W+22.5W PD+QC Fast Charge Power Bank 10000mAh Black",
   oldPrice: "",
-  price: "Rs.3699",
+  price: "Rs.3699.00",
   description: [
     "The Remax RPP-622 is a 10000mAh power bank designed for fast and convenient portable charging.",
     "It supports 20W and 22.5W fast charging with PD and QC technology.",
@@ -468,7 +467,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/3cc7bd0048d1776078819.jpg?v=1786709705&width=800",
   title: "Romoss Sense 8P+ Plus 30000mAh 18W PD + QC Fast Charging Power Bank",
   oldPrice: "",
-  price: "Rs.5999",
+  price: "Rs.5999.00",
   description: [
     "The Romoss Sense 8P+ Plus is a high-capacity 30000mAh power bank designed for extended portable charging.",
     "It supports 18W fast charging with PD and QC technology.",
@@ -501,7 +500,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/301756450083.jpg?v=1786709393&width=800",
   title: "Romoss PB10F Power Bank Polymos 10 Air 10000mAh 22.5W Fast Charging",
   oldPrice: "",
-  price: "Rs.3999",
+  price: "Rs.3999.00",
   description: [
     "The Romoss PB10F Polymos 10 Air is a 10000mAh power bank designed for fast portable charging.",
     "It supports 22.5W fast charging for compatible devices.",
@@ -531,7 +530,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/30101776078347.jpg?v=1786705288&width=800",
   title: "Romoss PHO10F 22.5W Fast Charging 10000mAh Power Bank",
   oldPrice: "",
-  price: "Rs.3399",
+  price: "Rs.3399.00",
   description: [
     "The Romoss PHO10F is a 10000mAh power bank designed for convenient fast charging.",
     "It supports 22.5W fast charging for compatible devices.",
@@ -561,7 +560,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/301756450290.jpg?v=1786705094&width=800",
   title: "Romoss SW10PF 10000mAh 22.5W Fast Charging Digital LED Display",
   oldPrice: "",
-  price: "Rs.3799",
+  price: "Rs.3799.00",
   description: [
     "The Romoss SW10PF is a 10000mAh power bank designed for fast portable charging.",
     "It supports 22.5W fast charging and features a digital LED display for monitoring battery level.",
@@ -593,7 +592,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/301756448608.jpg?v=1786704952&width=800",
   title: "Faxite M10Pro 10000mAh 22.5W Metal Digital Display Quick Charge 4.0 Power Bank",
   oldPrice: "",
-  price: "Rs.3999",
+  price: "Rs.3999.00",
   description: [
     "The Faxite M10Pro is a 10000mAh power bank designed for fast and convenient charging.",
     "It supports 22.5W fast charging and Quick Charge 4.0 technology.",
@@ -628,7 +627,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/31755944149.jpg?v=1786704813&width=800",
   title: "Speed-X SP-WP40 10000mAh Magnetic Wireless Power Bank 20W PD Fast Charging",
   oldPrice: "",
-  price: "Rs.4999",
+  price: "Rs.4999.00",
   description: [
     "The Speed-X SP-WP40 is a 10000mAh magnetic wireless power bank designed for convenient portable charging.",
     "It supports 20W PD fast charging and magnetic wireless charging.",
@@ -660,7 +659,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/31755944274.jpg?v=1786704658&width=800",
   title: "SpeedX SP-S285 22.5W 20000mAh Super Fast Charging Power Bank",
   oldPrice: "",
-  price: "Rs.4599",
+  price: "Rs.4599.00",
   description: [
     "The SpeedX SP-S285 is a 20000mAh high-capacity power bank designed for super fast charging.",
     "It supports 22.5W fast charging for compatible devices.",
@@ -691,7 +690,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/31755944355.jpg?v=1786704573&width=800",
   title: "SpeedX SP-S185 22.5W 10000mAh Super Fast Charging Power Bank",
   oldPrice: "",
-  price: "Rs.3799",
+  price: "Rs.3799.00",
   description: [
     "The SpeedX SP-S185 is a 10000mAh power bank designed for super fast portable charging.",
     "It supports 22.5W fast charging for compatible devices.",
@@ -721,7 +720,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/21755944460.jpg?v=1786704366&width=800",
   title: "SpeedX SP-S288L 3-in-1 22.5W 20000mAh Fast Charging Power Bank",
   oldPrice: "",
-  price: "Rs.4399",
+  price: "Rs.4399.00",
   description: [
     "The SpeedX SP-S288L is a 20000mAh power bank designed for fast and convenient charging.",
     "It supports 22.5W fast charging and features a 3-in-1 charging design.",
@@ -753,7 +752,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/31755944576.jpg?v=1786704218&width=800",
   title: "SpeedX SP-S188L 3-in-1 22.5W 10000mAh Fast Charging Power Bank",
   oldPrice: "",
-  price: "Rs.3249",
+  price: "Rs.3249.00",
   description: [
     "The SpeedX SP-S188L is a 10000mAh power bank designed for fast and convenient portable charging.",
     "It supports 22.5W fast charging and features a 3-in-1 charging design.",
@@ -785,7 +784,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/800x800_6632001077A-1.webp?v=1786703798&width=800",
   title: "JOYROOM JR-PBF17 10000mAh 22.5W Fast Charging Power Bank with Built-In Type-C Cable",
   oldPrice: "",
-  price: "Rs.5700",
+  price: "Rs.5700.00",
   description: [
     "The JOYROOM JR-PBF17 is a 10000mAh power bank designed for convenient fast charging.",
     "It supports 22.5W fast charging for compatible devices.",
@@ -818,7 +817,7 @@ const Mobile = [
   image: "https://soopermall.com/cdn/shop/files/unnamed-8.jpg?v=1786703527&width=800",
   title: "Baseus Airpow 10000mAh 20W Fast Charge Power Bank White",
   oldPrice: "",
-  price: "Rs.6675",
+  price: "Rs.6675.00",
   description: [
     "The Baseus Airpow is a 10000mAh portable power bank designed for fast charging.",
     "It supports up to 20W fast charging for compatible devices.",

@@ -46,7 +46,7 @@ const Brands = () => {
       </div>
 
       {/* Right Cards */}
-      <div className="flex flex-row gap-4 sm:gap-5 w-full md:w-[60%] mt-10 md:mt-0 overflow-x-auto scrollbar-hide pb-2 md:justify-end">
+      <div className="flex flex-row gap-4 sm:gap-5 w-full md:w-[60%] mt-10 md:mt-0 overflow-y-auto scrollbar-hide pb-2 ">
 
         {pic1.map((item, index) => (
           <div

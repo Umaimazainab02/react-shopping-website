@@ -12,7 +12,7 @@ import Audio from './pages/Audio'
 import SmartHome from './pages/SmartHome'
 import Home from './pages/Home'
 import Login from './pages/Login'
-
+import Cart from './pages/Cart'
 const App = () => {
   return (
     <div>
@@ -115,7 +115,16 @@ const App = () => {
             </>
           }
         />
-
+        <Route
+          path="/cart"
+          element={
+            <>
+              <Navbar1 />
+              <Navbar2 />
+              <Cart />
+            </>
+          }
+        />
         <Route
           path="/product/:category/:id"
           element={
